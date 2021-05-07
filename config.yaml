@@ -24,7 +24,7 @@ params:
   # geekdocMenuBundle: true
   geekdocToC: 3
 
-  #geekdocRepo: https://github.com/atmoschem/atmoschem.github.io
+  geekdocRepo: https://github.com/atmoschem/atmoschem.github.io
   # geekdocEditPath: edit/main/exampleSite/content
 
   geekdocSearch: true
