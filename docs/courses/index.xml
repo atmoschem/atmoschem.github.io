@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses on atmoschem</title>
+    <link>https://atmoschem.github.io/courses/</link>
+    <description>Recent content in Courses on atmoschem</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://atmoschem.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VEIN 2020</title>
+      <link>https://atmoschem.github.io/courses/vein-2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein-2020/</guid>
+      <description>Curso sobre Vehicular Emissions Inventory (VEIN)    Em Fevereiro de 2020 foi feito um curso de VEIN no IAG, USP. Aqui a pagina web do curso https://ibarraespinosa.github.io/cursovein/
+Aqui os videos:
+    </description>
+    </item>
+    
+  </channel>
+</rss>

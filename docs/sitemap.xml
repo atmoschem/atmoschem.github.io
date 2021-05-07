@@ -3,68 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://atmoschem.github.io/usage/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
+    <loc>https://atmoschem.github.io/rpackages/</loc>
   </url>
   
   <url>
-    <loc>https://atmoschem.github.io/usage/vein/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
+    <loc>https://atmoschem.github.io/rpackages/vein/</loc>
   </url>
   
   <url>
-    <loc>https://atmoschem.github.io/usage/eixport/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
+    <loc>https://atmoschem.github.io/rpackages/eixport/</loc>
   </url>
   
   <url>
-    <loc>https://atmoschem.github.io/usage/emissv/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
+    <loc>https://atmoschem.github.io/rpackages/emissv/</loc>
   </url>
   
   <url>
-    <loc>https://atmoschem.github.io/usage/wrftools/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
+    <loc>https://atmoschem.github.io/rpackages/wrftools/</loc>
   </url>
   
   <url>
-    <loc>https://atmoschem.github.io/usage/respeciate/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
+    <loc>https://atmoschem.github.io/rpackages/respeciate/</loc>
   </url>
   
   <url>
-    <loc>https://atmoschem.github.io/usage/koffing/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
+    <loc>https://atmoschem.github.io/rpackages/koffing/</loc>
   </url>
   
   <url>
-    <loc>https://atmoschem.github.io/features/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
+    <loc>https://atmoschem.github.io/workshops/</loc>
   </url>
   
   <url>
-    <loc>https://atmoschem.github.io/features/pems/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
+    <loc>https://atmoschem.github.io/workshops/pems/</loc>
   </url>
   
   <url>
-    <loc>https://atmoschem.github.io/usage/getting-started/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
+    <loc>https://atmoschem.github.io/rpackages/emep/</loc>
   </url>
   
   <url>
-    <loc>https://atmoschem.github.io/usage/configuration/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
+    <loc>https://atmoschem.github.io/rpackages/cpt/</loc>
   </url>
   
   <url>
-    <loc>https://atmoschem.github.io/shortcodes/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
+    <loc>https://atmoschem.github.io/courses/</loc>
   </url>
   
   <url>
-    <loc>https://atmoschem.github.io/shortcodes/vein-2019/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
+    <loc>https://atmoschem.github.io/courses/vein-2020/</loc>
   </url>
   
   <url>
@@ -108,71 +95,6 @@
   </url>
   
   <url>
-    <loc>https://atmoschem.github.io/features/code-blocks/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/features/theming/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/shortcodes/buttons/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/shortcodes/columns/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/shortcodes/expand/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/shortcodes/hints/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/shortcodes/icon/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/shortcodes/images/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/shortcodes/includes/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/shortcodes/mermaid/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/shortcodes/tabs/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/shortcodes/toc-tree/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/shortcodes/toc/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://atmoschem.github.io/toc-tree/level-1/</loc>
     <lastmod>2021-05-07T06:54:23-03:00</lastmod>
   </url>
@@ -183,26 +105,11 @@
   </url>
   
   <url>
-    <loc>https://atmoschem.github.io/usage/menus/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://atmoschem.github.io/categories/</loc>
   </url>
   
   <url>
     <loc>https://atmoschem.github.io/collapse/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/features/dark-mode/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/features/icon-sets/</loc>
     <lastmod>2021-05-07T06:54:23-03:00</lastmod>
   </url>
   

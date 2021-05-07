@@ -1,6 +1,7 @@
 ---
 title: ToC Tree
 geekdocFlatSection: true
+GeekdocHidden: true
 ---
 
 This is just a demo section for the <!-- spellchecker-disable -->[toc-tree](/shortcodes/toc-tree/)<!-- spellchecker-enable --> shortcode.

@@ -1,11 +1,14 @@
 ---
+type: "posts"
 baseURL: https://atmoschem.github.io/
-title: Geekdocs
+title: atmoschem
 theme: hugo-geekdoc
 pygmentsUseClasses: true
 pygmentsCodeFences: true
 timeout: 180000
 pluralizeListTitles: false
+
+type: "posts"
 
 # Geekdoc configuration
 disablePathToLower: true
@@ -21,6 +24,7 @@ markup:
     endLevel: 9
 
 params:
+  mainSections: ["post"]
   # geekdocMenuBundle: true
   geekdocToC: 3
 
