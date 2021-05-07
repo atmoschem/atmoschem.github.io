@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to AtmosChem on Geekdocs</title>
+    <link>https://atmoschem.github.io/</link>
+    <description>Recent content in Welcome to AtmosChem on Geekdocs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://atmoschem.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>vein</title>
+      <link>https://atmoschem.github.io/usage/vein/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/usage/vein/</guid>
+      <description>#VEIN</description>
+    </item>
+    
+    <item>
+      <title>eixport</title>
+      <link>https://atmoschem.github.io/usage/eixport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/usage/eixport/</guid>
+      <description>#eixport</description>
+    </item>
+    
+    <item>
+      <title>emissv</title>
+      <link>https://atmoschem.github.io/usage/emissv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/usage/emissv/</guid>
+      <description>#emissv</description>
+    </item>
+    
+    <item>
+      <title>wrftools</title>
+      <link>https://atmoschem.github.io/usage/wrftools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/usage/wrftools/</guid>
+      <description>#wrftools</description>
+    </item>
+    
+    <item>
+      <title>respeciate</title>
+      <link>https://atmoschem.github.io/usage/respeciate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/usage/respeciate/</guid>
+      <description>#respeciate</description>
+    </item>
+    
+    <item>
+      <title>koffing</title>
+      <link>https://atmoschem.github.io/usage/koffing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/usage/koffing/</guid>
+      <description>#koffinig</description>
+    </item>
+    
+    <item>
+      <title>2021/05/27 PEMS</title>
+      <link>https://atmoschem.github.io/features/pems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/features/pems/</guid>
+      <description>PEMS and vehicular emission models</description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://atmoschem.github.io/usage/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/usage/getting-started/</guid>
+      <description>&lt;p&gt;This page tells you how to get started with the Geekdoc theme, including installation and basic configuration.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Configuration</title>
+      <link>https://atmoschem.github.io/usage/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/usage/configuration/</guid>
+      <description>Site configuration Page configuration     Site configuration     TOML  baseURL = &amp;#34;http://localhost&amp;#34; title = &amp;#34;Geekdocs&amp;#34; theme = &amp;#34;hugo-geekdoc&amp;#34; # Required to get well formatted code blocks pygmentsUseClasses = true pygmentsCodeFences = true disablePathToLower = true enableGitInfo = true [markup] [markup.goldmark.renderer] # Needed for mermaid shortcode unsafe = true [markup.tableOfContents] startLevel = 1 endLevel = 9 [params] # (Optional, default 6) Set how many table of contents levels to be showed on page.</description>
+    </item>
+    
+    <item>
+      <title>VEIN 2019</title>
+      <link>https://atmoschem.github.io/shortcodes/vein-2019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/shortcodes/vein-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://atmoschem.github.io/posts/my-first-post/</link>
+      <pubDate>Thu, 06 May 2021 21:35:06 -0300</pubDate>
+      
+      <guid>https://atmoschem.github.io/posts/my-first-post/</guid>
+      <description>hola hola    </description>
+    </item>
+    
+    <item>
+      <title>Initial release</title>
+      <link>https://atmoschem.github.io/posts/initial-release/</link>
+      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/posts/initial-release/</guid>
+      <description>This is the first release of the Geekdoc theme.
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re. Pro ad prompts feud gait, quid exercise emeritus bis e. In pro quints consequent, denim fastidious copious quo ad. Stet probates in duo.</description>
+    </item>
+    
+    <item>
+      <title>Hello Geekdoc</title>
+      <link>https://atmoschem.github.io/posts/hello_geekdoc/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/posts/hello_geekdoc/</guid>
+      <description>This is the first release of the Geekdoc theme.
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re. Pro ad prompts feud gait, quid exercise emeritus bis e. In pro quints consequent, denim fastidious copious quo ad. Stet probates in duo.
+Amalia id per in minimum facility, quid facet modifier ea ma. Ill um select ma ad, en ferric patine sentient vim.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atmoschem.github.io/_includes/include-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/_includes/include-page/</guid>
+      <description>Example page include
+Example Shortcode
+Shortcode used in an include page.     Head 1 Head 2 Head 3     1 2 3    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atmoschem.github.io/features/code-blocks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/features/code-blocks/</guid>
+      <description>There are multiple ways to add code blocks. Most of them works out of the box only the Hugo shortcode &amp;lt;highlight&amp;gt; need some configuration to work properly.
+   Inline code Code blocks Highlight shortcode     Inline code    To display an inline shortcode use single quotes:
+`some code` Example: some code
+Code blocks    Code blocks can be uses without language specification:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atmoschem.github.io/shortcodes/buttons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/shortcodes/buttons/</guid>
+      <description>Buttons are styled links that can lead to local page or external link.
+{{&amp;lt; button relref=&amp;#34;/&amp;#34; [class=&amp;#34;...&amp;#34;] &amp;gt;}}Get Home{{&amp;lt; /button &amp;gt;}}{{&amp;lt; button href=&amp;#34;https://github.com/thegeeklab/hugo-geekdoc&amp;#34; &amp;gt;}}Contribute{{&amp;lt; /button &amp;gt;}}Example     Get Home   Contribute   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atmoschem.github.io/shortcodes/columns/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/shortcodes/columns/</guid>
+      <description>Columns help organize shorter pieces of content horizontally for readability.
+{{&amp;lt; columns &amp;gt;}} &amp;lt;!-- begin columns block --&amp;gt; # Left Content Dolor sit, sumo unique argument um no ... &amp;lt;---&amp;gt; &amp;lt;!-- magic sparator, between columns --&amp;gt; # Mid Content Dolor sit, sumo unique argument um no ... &amp;lt;---&amp;gt; &amp;lt;!-- magic sparator, between columns --&amp;gt; # Right Content Dolor sit, sumo unique argument um no ... {{&amp;lt; /columns &amp;gt;}} Example    Left    Dolor sit, sumo unique argument um no.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atmoschem.github.io/shortcodes/expand/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/shortcodes/expand/</guid>
+      <description>Expand shortcode can help to decrease clutter on screen by hiding part of text. Expand content by clicking on it.
+Example    Default    {{&amp;lt; expand &amp;gt;}}## Markdown content Dolor sit, sumo unique ... {{&amp;lt; /expand &amp;gt;}} Expand ↕  Markdown content    Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atmoschem.github.io/shortcodes/hints/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/shortcodes/hints/</guid>
+      <description>Hint shortcode can be used as hint/alerts/notification block. There are four colors to choose: info, ok, warning and danger.
+{{&amp;lt; hint [info|warning|danger] &amp;gt;}}**Markdown content**\ Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re. {{&amp;lt; /hint &amp;gt;}}Example    Markdown content
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atmoschem.github.io/shortcodes/icon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/shortcodes/icon/</guid>
+      <description>Simple shortcode to include icons from SVG sprites outside of menus.
+{{&amp;lt; icon &amp;#34;thumbs-up&amp;#34; &amp;gt;}}Example:
+   Result Usage      {{&amp;lt; icon &amp;quot;thumbs-up&amp;quot; &amp;gt;}}    {{&amp;lt; icon &amp;quot;thumbs-down&amp;quot; &amp;gt;}}    {{&amp;lt; icon &amp;quot;laugh&amp;quot; &amp;gt;}}    {{&amp;lt; icon &amp;quot;lemon&amp;quot; &amp;gt;}}    {{&amp;lt; icon &amp;quot;moon&amp;quot; &amp;gt;}}    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atmoschem.github.io/shortcodes/includes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/shortcodes/includes/</guid>
+      <description>Examples  Markdown file (default) Language files Special include types  HTML Pages         Include shortcode can include files of different types. By specifying a language, the included file will have syntax highlighting.
+{{&amp;lt; include file=&amp;#34;relative/path/from/hugo/root&amp;#34; language=&amp;#34;go&amp;#34; markdown=[false|true] &amp;gt;}}Attributes:
+   Name Usage default     file path to the included file relative to the hugo root undefined   language language for syntax highlighting undefined   type special include type (html,page) undefined   options highlighting options linenos=table    Examples    Markdown file (default)    If no other options are specified, files will be rendered as Markdown using the RenderString function.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atmoschem.github.io/shortcodes/mermaid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/shortcodes/mermaid/</guid>
+      <description>Mermaid is library for generating SVG charts and diagrams from text.
+Example    {{&amp;lt; mermaid class=&amp;#34;text-center&amp;#34;&amp;gt;}}sequenceDiagram Alice-&amp;gt;&amp;gt;Bob: Hello Bob, how are you? alt is sick Bob-&amp;gt;&amp;gt;Alice: Not so good :( else is well Bob-&amp;gt;&amp;gt;Alice: Feeling fresh like a daisy end opt Extra response Bob-&amp;gt;&amp;gt;Alice: Thanks for asking end {{&amp;lt; /mermaid &amp;gt;}}    document.addEventListener(&#34;DOMContentLoaded&#34;, function(event) { let currentMode = localStorage.getItem(THEME); let darkModeQuery = window.matchMedia(&#34;(prefers-color-scheme: dark)&#34;); let primaryColor = &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atmoschem.github.io/shortcodes/tabs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/shortcodes/tabs/</guid>
+      <description>Tabs let you organize content by context, for example installation instructions for each supported platform.
+{{&amp;lt; tabs &amp;#34;uniqueid&amp;#34; &amp;gt;}}{{&amp;lt; tab &amp;#34;macOS&amp;#34; &amp;gt;}}# macOS Content {{&amp;lt; /tab &amp;gt;}}{{&amp;lt; tab &amp;#34;Linux&amp;#34; &amp;gt;}}# Linux Content {{&amp;lt; /tab &amp;gt;}}{{&amp;lt; tab &amp;#34;Windows&amp;#34; &amp;gt;}}# Windows Content {{&amp;lt; /tab &amp;gt;}}{{&amp;lt; /tabs &amp;gt;}}Example     macOS  macOS    This is tab macOS content.
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atmoschem.github.io/shortcodes/toc-tree/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/shortcodes/toc-tree/</guid>
+      <description>The toc-tree shortcode will generate a Table of Content from a section file tree of your content directory. The root of the resulting ToC will be the page on which you define the shortcode.
+{{&amp;lt; toc-tree &amp;gt;}}Example    As said, the root will be the site on which the shortcode was used, you can see a demo including nesting in the ToC Tree section.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atmoschem.github.io/shortcodes/toc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/shortcodes/toc/</guid>
+      <description>Simple wrapper to generate a page Table of Content from a shortcode.
+{{&amp;lt; toc &amp;gt;}}    Level 1 Level 2  Level 2.1  Level 2.1.1  Level 2.1.1.1  Level 2.1.1.1.1       Level 2.2       Level 1    Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atmoschem.github.io/usage/menus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/usage/menus/</guid>
+      <description>The theme supports two different kinds of menus. File-tree menu is the default one and does not require further configuration to work. If you want full control about your menu the bundle menu is a powerful option to accomplish it.
+   File-tree menu Bundle menu  More menu       File-tree menu    As the name already suggests, the file tree menu builds a menu from the file system structure of the content folder.</description>
+    </item>
+    
+    <item>
+      <title>Icon Sets</title>
+      <link>https://atmoschem.github.io/features/icon-sets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/features/icon-sets/</guid>
+      <description>Custom icon sets Build-in icons     Custom icon sets    The only supported source for custom icons are SVG sprites. Some icon frameworks provides ready to use sprites e.g. FontAwesome. If the framework don&amp;rsquo;t provide sprites, you can create your own from raw SVG icons. There are a lot of tools available to create sprites, please choose one that fits your need.</description>
+    </item>
+    
+    <item>
+      <title>Level 1.1</title>
+      <link>https://atmoschem.github.io/collapse/level-1/level-1-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/collapse/level-1/level-1-1/</guid>
+      <description>Level 1.1</description>
+    </item>
+    
+    <item>
+      <title>Level 1.1</title>
+      <link>https://atmoschem.github.io/toc-tree/level-1/level-1-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/toc-tree/level-1/level-1-1/</guid>
+      <description>Level 1.1</description>
+    </item>
+    
+    <item>
+      <title>Level 1.2</title>
+      <link>https://atmoschem.github.io/collapse/level-1/level-1-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/collapse/level-1/level-1-2/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+    <item>
+      <title>Level 1.2</title>
+      <link>https://atmoschem.github.io/toc-tree/level-1/level-1-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/toc-tree/level-1/level-1-2/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+    <item>
+      <title>Level 1.3.1</title>
+      <link>https://atmoschem.github.io/toc-tree/level-1/level-1-3/level-1-3-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/toc-tree/level-1/level-1-3/level-1-3-1/</guid>
+      <description>Level 1.3.1</description>
+    </item>
+    
+    <item>
+      <title>Level 2.1</title>
+      <link>https://atmoschem.github.io/collapse/level-2/level-2-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/collapse/level-2/level-2-1/</guid>
+      <description>Level 2.1</description>
+    </item>
+    
+    <item>
+      <title>Level 2.1</title>
+      <link>https://atmoschem.github.io/toc-tree/level-2/level-2-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/toc-tree/level-2/level-2-1/</guid>
+      <description>Level 2.1</description>
+    </item>
+    
+    <item>
+      <title>Level 2.2</title>
+      <link>https://atmoschem.github.io/collapse/level-2/level-2-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/collapse/level-2/level-2-2/</guid>
+      <description>Level 2.2</description>
+    </item>
+    
+    <item>
+      <title>Level 2.2</title>
+      <link>https://atmoschem.github.io/toc-tree/level-2/level-2-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/toc-tree/level-2/level-2-2/</guid>
+      <description>Level 2.2</description>
+    </item>
+    
+  </channel>
+</rss>

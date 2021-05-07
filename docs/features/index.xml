@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workshops on Geekdocs</title>
+    <link>https://atmoschem.github.io/features/</link>
+    <description>Recent content in Workshops on Geekdocs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://atmoschem.github.io/features/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2021/05/27 PEMS</title>
+      <link>https://atmoschem.github.io/features/pems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/features/pems/</guid>
+      <description>PEMS and vehicular emission models</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atmoschem.github.io/features/code-blocks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/features/code-blocks/</guid>
+      <description>There are multiple ways to add code blocks. Most of them works out of the box only the Hugo shortcode &amp;lt;highlight&amp;gt; need some configuration to work properly.
+   Inline code Code blocks Highlight shortcode     Inline code    To display an inline shortcode use single quotes:
+`some code` Example: some code
+Code blocks    Code blocks can be uses without language specification:</description>
+    </item>
+    
+    <item>
+      <title>Icon Sets</title>
+      <link>https://atmoschem.github.io/features/icon-sets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/features/icon-sets/</guid>
+      <description>Custom icon sets Build-in icons     Custom icon sets    The only supported source for custom icons are SVG sprites. Some icon frameworks provides ready to use sprites e.g. FontAwesome. If the framework don&amp;rsquo;t provide sprites, you can create your own from raw SVG icons. There are a lot of tools available to create sprites, please choose one that fits your need.</description>
+    </item>
+    
+  </channel>
+</rss>
