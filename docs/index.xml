@@ -63,6 +63,15 @@ library(respeciate) x &amp;lt;- find_code(&amp;#34;Ethanol&amp;#34;) x$PROFILE_C
     </item>
     
     <item>
+      <title>2021/05/27 PEMS</title>
+      <link>https://atmoschem.github.io/workshops/pems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/workshops/pems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>koffing</title>
       <link>https://atmoschem.github.io/rpackages/koffing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -72,16 +81,6 @@ library(respeciate) x &amp;lt;- find_code(&amp;#34;Ethanol&amp;#34;) x$PROFILE_C
 Installation    You can install koffing from github with:
 # install.packages(&amp;#34;devtools&amp;#34;) devtools::install_github(&amp;#34;atmoschem/koffing&amp;#34;) CETESB scraper    To scrape data from the CETESB qualar system, use the function scraper_cetesb().
 library(koffing) koffing::scraper_cetesb( parameter = 99, station = 17, start = &amp;#34;01/01/2018&amp;#34;, end = &amp;#34;31/01/2018&amp;#34;, login = &amp;#34;login&amp;#34;, password = &amp;#34;password&amp;#34; ) If you substitute the values login and password by your login and password from the Qualar system, this example will return the hourly NO concentrations from the Pinheiros station for January 2018.</description>
-    </item>
-    
-    <item>
-      <title>2021/05/27 PEMS</title>
-      <link>https://atmoschem.github.io/workshops/pems/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://atmoschem.github.io/workshops/pems/</guid>
-      <description>foto
-static/workshop2021pems_ibarra2.png static/workshop2021pems_osses.png static/workshop2021pems_ibarra.png static/workshop2021pems.png static/workshop2021pems_osses2.png static/workshop2021pems_ropkins.png static/workshop2021pems_osses3.png</description>
     </item>
     
     <item>

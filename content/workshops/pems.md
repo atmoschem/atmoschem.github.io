@@ -1,21 +1,14 @@
 ---
 title: 2021/05/27 PEMS
-weight: -14
+weight: -15
 ---
 
-foto
-
-![](media/1workshop2021pems.png)
-
-![](workshop2021pems_ropkins.png)
-
-![](workshop2021pems_osses.png)
 
 
-static/workshop2021pems_ibarra2.png  static/workshop2021pems_osses.png
-static/workshop2021pems_ibarra.png   static/workshop2021pems.png
-static/workshop2021pems_osses2.png   static/workshop2021pems_ropkins.png
-static/workshop2021pems_osses3.png
+![](https://raw.githubusercontent.com/atmoschem/atmoschem.github.io/main/static/media/1workshop2021pems.png)
 
+![](https://raw.githubusercontent.com/atmoschem/atmoschem.github.io/main/static/media/2workshop2021pems.png)
+
+![](https://raw.githubusercontent.com/atmoschem/atmoschem.github.io/main/static/media/3workshop2021pems.png)
 
 
