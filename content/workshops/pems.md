@@ -12,6 +12,9 @@ This workshop, on May 27 20:00 UTC,  will gather cutting edge research on this t
 - [YouTube](https://www.youtube.com/channel/UCyOuqiSs2OLLkC1bt7lV2Yg/live)
 - [Facebook](https://www.facebook.com/cienciasatmosfericas/live/)
 
+<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MDE3NWRjOHU4bWgzbW44aDAzdmgwbGd0Nmwgc2VyZ2lvLmliYXJyYUB1c3AuYnI&amp;tmsrc=sergio.ibarra%40usp.br"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_pt-BR.gif"></a>
+ 
+
 ## 1st PEMS, RSD and Emission Models Workshop (PREM)
 
 
