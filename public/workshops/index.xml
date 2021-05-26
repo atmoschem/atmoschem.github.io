@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workshops on atmoschem</title>
+    <link>https://atmoschem.github.io/workshops/</link>
+    <description>Recent content in Workshops on atmoschem</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://atmoschem.github.io/workshops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021/05/27 PEMS</title>
+      <link>https://atmoschem.github.io/workshops/pems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/workshops/pems/</guid>
+      <description>PEMS, RSD and Emission Models    This workshop, on May 27 20:00 UTC, will gather cutting edge research on this topic. To participate, click on:
+ YouTube Facebook     Invited Bio      André Forcetto Andre Forcetto has a master’s degree in Environment, Health and Sustainability from Universidade de São Paulo and he’s a doctoral student in Atmospheric Sciences at IAG-USP, focused on the development of a low-cost PEMS.</description>
+    </item>
+    
+  </channel>
+</rss>

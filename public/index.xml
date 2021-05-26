@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to AtmosChem on atmoschem</title>
+    <link>https://atmoschem.github.io/</link>
+    <description>Recent content in Welcome to AtmosChem on atmoschem</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://atmoschem.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vein</title>
+      <link>https://atmoschem.github.io/rpackages/vein/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/rpackages/vein/</guid>
+      <description>build:    cran:      doi:  github:  
+  Vehicular Emissions INventories (VEIN)    What is new?     Added OpenMP AGAIN and also, imported dotCall64 to avoid copying New VEIN project: sebr_cb05co2 covers SP, MG, RJ with CB05+CO2 for 2019 and amazon2014. NH3 in ef_cetesb updated VOC speciation for Brazil  New in VEIN?    No worries!</description>
+    </item>
+    
+    <item>
+      <title>eixport</title>
+      <link>https://atmoschem.github.io/rpackages/eixport/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/rpackages/eixport/</guid>
+      <description>Exporting emissions to atmospheric models, eixport: 0.5.0    Emissions are mass that affects atmosphere in complex ways, not only physical, but also, in the health of humans, ecosystems, economically, etc.
+There are several models whose inputs are emissions, such as R-Line or WRF-Chem. This R-Package provide functions to read emissions from VEIN and from other models in different formats and export the emissions into the appropriate format suitable to other models.</description>
+    </item>
+    
+    <item>
+      <title>emissv</title>
+      <link>https://atmoschem.github.io/rpackages/emissv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/rpackages/emissv/</guid>
+      <description>This package provides tools to create emissions (with a focus on vehicular emissions) for use in numeric air quality models such as WRF-Chem.
+Installation    System dependencies    EmissV import functions from ncdf4 for reading model information, raster and sf to process grinded/geographic information and units. These packages need some aditional libraries:
+To Ubuntu    The following steps are required for installation on Ubuntu:</description>
+    </item>
+    
+    <item>
+      <title>wrftools</title>
+      <link>https://atmoschem.github.io/rpackages/wrftools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/rpackages/wrftools/</guid>
+      <description>This package does 3 things
+ help you to define domains extract data as points of spatial features and bricks returns st_bbox from wrf files  I’m not an expert in WRF but i need to use it. One of the very frustating and tricky part was to make a correct namelist.wps. Hours and hours trying to get the perfect domains. This functions solves this part while providing a dynamic maps for actually viewing where are your domains.</description>
+    </item>
+    
+    <item>
+      <title>respeciate</title>
+      <link>https://atmoschem.github.io/rpackages/respeciate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/rpackages/respeciate/</guid>
+      <description>respeciate give you access to the US/EPA Speciate v5.1 profiles
+The installation is:
+remotes::install_github(&amp;#34;atmoschem/respeciate&amp;#34;) example    find PROFILE_CODE
+library(respeciate) x &amp;lt;- find_code(&amp;#34;Ethanol&amp;#34;) x$PROFILE_CODE #&amp;gt; [1] &amp;#34;8733&amp;#34; &amp;#34;8736&amp;#34; &amp;#34;8757&amp;#34; &amp;#34;8758&amp;#34; &amp;#34;8760&amp;#34; &amp;#34;8761&amp;#34; &amp;#34;8763&amp;#34; &amp;#34;8764&amp;#34; &amp;#34;8765&amp;#34; &amp;#34;8766&amp;#34; #&amp;gt; [11] &amp;#34;8767&amp;#34; &amp;#34;8768&amp;#34; &amp;#34;8769&amp;#34; &amp;#34;8770&amp;#34; &amp;#34;8771&amp;#34; &amp;#34;8772&amp;#34; &amp;#34;8773&amp;#34; &amp;#34;8827&amp;#34; &amp;#34;8828&amp;#34; &amp;#34;8829&amp;#34; #&amp;gt; [21] &amp;#34;8830&amp;#34; &amp;#34;8831&amp;#34; &amp;#34;8832&amp;#34; &amp;#34;8833&amp;#34; &amp;#34;8834&amp;#34; &amp;#34;8835&amp;#34; &amp;#34;8836&amp;#34; &amp;#34;8837&amp;#34; &amp;#34;8838&amp;#34; &amp;#34;8839&amp;#34; #&amp;gt; [31] &amp;#34;8840&amp;#34; &amp;#34;8841&amp;#34; &amp;#34;8842&amp;#34; &amp;#34;8843&amp;#34; &amp;#34;8844&amp;#34; &amp;#34;8845&amp;#34; &amp;#34;8846&amp;#34; &amp;#34;8847&amp;#34; &amp;#34;8848&amp;#34; &amp;#34;8849&amp;#34; #&amp;gt; [41] &amp;#34;8850&amp;#34; &amp;#34;8851&amp;#34; &amp;#34;8852&amp;#34; &amp;#34;8853&amp;#34; &amp;#34;8854&amp;#34; &amp;#34;8855&amp;#34; &amp;#34;8863&amp;#34; &amp;#34;8864&amp;#34; &amp;#34;8865&amp;#34; &amp;#34;8866&amp;#34; #&amp;gt; [51] &amp;#34;8867&amp;#34; &amp;#34;8868&amp;#34; &amp;#34;8869&amp;#34; &amp;#34;8870&amp;#34; &amp;#34;8871&amp;#34; &amp;#34;8872&amp;#34; &amp;#34;8884&amp;#34; &amp;#34;8885&amp;#34; &amp;#34;8886&amp;#34; &amp;#34;8887&amp;#34; #&amp;gt; [61] &amp;#34;8888&amp;#34; &amp;#34;8889&amp;#34; &amp;#34;8934&amp;#34; speciate    PROFILE_CODE = &amp;#34;8855&amp;#34; dt &amp;lt;- spec(PROFILE_CODE) #&amp;gt; Sum WEIGHT_PERCENT: 100 head(dt, 2) #&amp;gt; REF_Code PROFILE_CODE SPECIES_ID #&amp;gt; 1 EPA2013 8855 30 #&amp;gt; 2 EPA2013 8855 44 #&amp;gt; PROFILE_NAME #&amp;gt; 1 Gasoline Exhaust - Tier 2 light-duty vehicles using 85% Ethanol - Composite Profile #&amp;gt; 2 Gasoline Exhaust - Tier 2 light-duty vehicles using 85% Ethanol - Composite Profile #&amp;gt; PROFILE_TYPE MASTER_POLLUTANT QSCORE QSCORE_DESC QUALITY CONTROLS #&amp;gt; 1 GAS TOG NA B Not Available #&amp;gt; 2 GAS TOG NA B Not Available #&amp;gt; PROFILE_DATE #&amp;gt; 1 10/15/10 00:00:00 #&amp;gt; 2 10/15/10 00:00:00 #&amp;gt; PROFILE_NOTES #&amp;gt; 1 Composite profile from four Tier 2 FFVs on one E85 fuel, LA92 test cycle.</description>
+    </item>
+    
+    <item>
+      <title>2021/05/27 PEMS</title>
+      <link>https://atmoschem.github.io/workshops/pems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/workshops/pems/</guid>
+      <description>PEMS, RSD and Emission Models    This workshop, on May 27 20:00 UTC, will gather cutting edge research on this topic. To participate, click on:
+ YouTube Facebook     Invited Bio      André Forcetto Andre Forcetto has a master’s degree in Environment, Health and Sustainability from Universidade de São Paulo and he’s a doctoral student in Atmospheric Sciences at IAG-USP, focused on the development of a low-cost PEMS.</description>
+    </item>
+    
+    <item>
+      <title>koffing</title>
+      <link>https://atmoschem.github.io/rpackages/koffing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/rpackages/koffing/</guid>
+      <description>The goal of koffing is to assemble R functions to catch (scrape) air pollution data. koffing is from the same creator of the blog Rpollution. Newer versions of this scraper can be found here.
+Installation    You can install koffing from github with:
+# install.packages(&amp;#34;devtools&amp;#34;) devtools::install_github(&amp;#34;atmoschem/koffing&amp;#34;) CETESB scraper    To scrape data from the CETESB qualar system, use the function scraper_cetesb().
+library(koffing) koffing::scraper_cetesb( parameter = 99, station = 17, start = &amp;#34;01/01/2018&amp;#34;, end = &amp;#34;31/01/2018&amp;#34;, login = &amp;#34;login&amp;#34;, password = &amp;#34;password&amp;#34; ) If you substitute the values login and password by your login and password from the Qualar system, this example will return the hourly NO concentrations from the Pinheiros station for January 2018.</description>
+    </item>
+    
+    <item>
+      <title>emep</title>
+      <link>https://atmoschem.github.io/rpackages/emep/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/rpackages/emep/</guid>
+      <description>EMEP EEA Emission factors data-base    Access to the EMEP EEA emission factors tier 2. https://www.eea.europa.eu/publications/emep-eea-guidebook-2019
+Installation    library(remotes) install_gitlab(&amp;#34;ibarraespinosa/emep&amp;#34;) Functions     ef find_ef  ef() find_ef(&amp;#34;electricity&amp;#34;) NFR Sector Table Type Technology Fuel Abatement Region Pollutant Value Unit 2 1.A.1.a Public electricity and heat production Table_3-20 Tier 2 emission factor Stationary reciprocating Engines - gas-fired Natural gas &amp;lt;NA&amp;gt; Cr 0.05 mg/GJ 11 1.A.1.a Public electricity and heat production Table_3-20 Tier 2 emission factor Stationary reciprocating Engines - gas-fired Natural gas &amp;lt;NA&amp;gt; TSP 2 g/GJ CI_lower CI_upper Reference 2 0.</description>
+    </item>
+    
+    <item>
+      <title>cptcity</title>
+      <link>https://atmoschem.github.io/rpackages/cpt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/rpackages/cpt/</guid>
+      <description>A package to return colour gradients from CPTCITY    Colour palettes comes from http://soliton.vm.bytemark.co.uk/pub/cpt-city/index.html
+Currently there are 7140 colour gradients. To se the names type cpt_names.
+There are three functions:
+ find_cpt: To search the name of the colour gradient.  Example:
+library(cptcity) find_cpt(&amp;#34;radar&amp;#34;) ## [1] &amp;quot;idv_radar_dbz_nws&amp;quot; &amp;quot;idv_radar_dbz&amp;quot; &amp;quot;idv_radar_reflect_24&amp;quot; ## [4] &amp;quot;idv_radar_topo_mdr&amp;quot; &amp;quot;ncl_radar_1&amp;quot; &amp;quot;ncl_radar&amp;quot;  find_cpt(&amp;#34;rain&amp;#34;) ## [1] &amp;quot;colo_alpen_sky_rain_brolly&amp;quot; ## [2] &amp;quot;colo_lightningmccarl_taste_the_rainbow&amp;quot; ## [3] &amp;quot;ds9_rainbow&amp;quot; ## [4] &amp;quot;gist_rainbow&amp;quot; ## [5] &amp;quot;gmt_GMT_rainbow&amp;quot; ## [6] &amp;quot;grass_rainbow&amp;quot; ## [7] &amp;quot;grass_terrain&amp;quot; ## [8] &amp;quot;imagej_brain&amp;quot; ## [9] &amp;quot;jjg_ccolo_alpen_sky_rain_brolly&amp;quot; ## [10] &amp;quot;jjg_ccolo_lightningmccarl_taste_the_rainbow&amp;quot; ## [11] &amp;quot;jjg_misc_rainfall&amp;quot; ## [12] &amp;quot;jjg_neo10_elem_rain&amp;quot; ## [13] &amp;quot;jjg_neo10_othr_faint_rainbow&amp;quot; ## [14] &amp;quot;jjg_neo10_othr_pastel_rainbow&amp;quot; ## [15] &amp;quot;jjg_neo10_othr_rainbow_sunset&amp;quot; ## [16] &amp;quot;kst_13_rainbow&amp;quot; ## [17] &amp;quot;kst_34_rainbow&amp;quot; ## [18] &amp;quot;kst_38_rainbow18&amp;quot; ## [19] &amp;quot;kst_39_rainbow_white&amp;quot; ## [20] &amp;quot;kst_40_rainbow_black&amp;quot; ## [21] &amp;quot;ma_icecream_rainbowsherbet&amp;quot; ## [22] &amp;quot;neota_elem_rain&amp;quot; ## [23] &amp;quot;neota_othr_faint_rainbow&amp;quot; ## [24] &amp;quot;neota_othr_pastel_rainbow&amp;quot; ## [25] &amp;quot;neota_othr_rainbow_sunset&amp;quot; ## [26] &amp;quot;oc_rainbow&amp;quot; ## [27] &amp;quot;ocal_spectrum_rainbow_medium&amp;quot; ## [28] &amp;quot;ocal_spectrums_rainbow_002&amp;quot; ## [29] &amp;quot;ocal_spectrums_rainbow&amp;quot; ## [30] &amp;quot;pd_skies_rainbow&amp;quot; ## [31] &amp;quot;pj_1_a_rainbow&amp;quot; ## [32] &amp;quot;pj_1_black_rainbow&amp;quot; ## [33] &amp;quot;pj_2_palest_rainbow&amp;quot; ## [34] &amp;quot;pj_2_white_rainbow&amp;quot; ## [35] &amp;quot;pj_2_wisteria_rain&amp;quot; ## [36] &amp;quot;pj_4_deeprainbow&amp;quot; ## [37] &amp;quot;pj_5_anotherrainbow&amp;quot; ## [38] &amp;quot;pj_5_harryrainbow&amp;quot; ## [39] &amp;quot;pj_5_mysticrainbow&amp;quot; ## [40] &amp;quot;pj_5_rainbowrich&amp;quot; ## [41] &amp;quot;pj_classic_paler_rainbow&amp;quot; ## [42] &amp;quot;rc_rainbow&amp;quot; ## [43] &amp;quot;ukmo_main_rain_mmh&amp;quot; ## [44] &amp;quot;ukmo_wow_rain_mmh&amp;quot;  cpt: To return the colour gradient.</description>
+    </item>
+    
+    <item>
+      <title>VEIN 2020</title>
+      <link>https://atmoschem.github.io/courses/vein-2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein-2020/</guid>
+      <description>Curso sobre Vehicular Emissions Inventory (VEIN)    Em Fevereiro de 2020 foi feito um curso de VEIN no IAG, USP. Aqui a pagina web do curso https://ibarraespinosa.github.io/cursovein/
+Aqui os videos:
+    </description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://atmoschem.github.io/posts/my-first-post/</link>
+      <pubDate>Thu, 06 May 2021 21:35:06 -0300</pubDate>
+      
+      <guid>https://atmoschem.github.io/posts/my-first-post/</guid>
+      <description>hola hola    </description>
+    </item>
+    
+    <item>
+      <title>Initial release</title>
+      <link>https://atmoschem.github.io/posts/initial-release/</link>
+      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/posts/initial-release/</guid>
+      <description>This is the first release of the Geekdoc theme.
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re. Pro ad prompts feud gait, quid exercise emeritus bis e. In pro quints consequent, denim fastidious copious quo ad. Stet probates in duo.</description>
+    </item>
+    
+    <item>
+      <title>Hello Geekdoc</title>
+      <link>https://atmoschem.github.io/posts/hello_geekdoc/</link>
+      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/posts/hello_geekdoc/</guid>
+      <description>This is the first release of the Geekdoc theme.
+Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re. Pro ad prompts feud gait, quid exercise emeritus bis e. In pro quints consequent, denim fastidious copious quo ad. Stet probates in duo.
+Amalia id per in minimum facility, quid facet modifier ea ma. Ill um select ma ad, en ferric patine sentient vim.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atmoschem.github.io/_includes/include-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/_includes/include-page/</guid>
+      <description>Example page include
+Example Shortcode
+Shortcode used in an include page.     Head 1 Head 2 Head 3     1 2 3    </description>
+    </item>
+    
+    <item>
+      <title>Level 1.1</title>
+      <link>https://atmoschem.github.io/collapse/level-1/level-1-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/collapse/level-1/level-1-1/</guid>
+      <description>Level 1.1</description>
+    </item>
+    
+    <item>
+      <title>Level 1.1</title>
+      <link>https://atmoschem.github.io/toc-tree/level-1/level-1-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/toc-tree/level-1/level-1-1/</guid>
+      <description>Level 1.1</description>
+    </item>
+    
+    <item>
+      <title>Level 1.2</title>
+      <link>https://atmoschem.github.io/collapse/level-1/level-1-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/collapse/level-1/level-1-2/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+    <item>
+      <title>Level 1.2</title>
+      <link>https://atmoschem.github.io/toc-tree/level-1/level-1-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/toc-tree/level-1/level-1-2/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+    <item>
+      <title>Level 1.3.1</title>
+      <link>https://atmoschem.github.io/toc-tree/level-1/level-1-3/level-1-3-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/toc-tree/level-1/level-1-3/level-1-3-1/</guid>
+      <description>Level 1.3.1</description>
+    </item>
+    
+    <item>
+      <title>Level 2.1</title>
+      <link>https://atmoschem.github.io/collapse/level-2/level-2-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/collapse/level-2/level-2-1/</guid>
+      <description>Level 2.1</description>
+    </item>
+    
+    <item>
+      <title>Level 2.1</title>
+      <link>https://atmoschem.github.io/toc-tree/level-2/level-2-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/toc-tree/level-2/level-2-1/</guid>
+      <description>Level 2.1</description>
+    </item>
+    
+    <item>
+      <title>Level 2.2</title>
+      <link>https://atmoschem.github.io/collapse/level-2/level-2-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/collapse/level-2/level-2-2/</guid>
+      <description>Level 2.2</description>
+    </item>
+    
+    <item>
+      <title>Level 2.2</title>
+      <link>https://atmoschem.github.io/toc-tree/level-2/level-2-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/toc-tree/level-2/level-2-2/</guid>
+      <description>Level 2.2</description>
+    </item>
+    
+  </channel>
+</rss>

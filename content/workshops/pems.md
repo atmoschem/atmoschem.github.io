@@ -13,6 +13,29 @@ This workshop, on May 27 20:00 UTC,  will gather cutting edge research on this t
 - [YouTube](https://www.youtube.com/channel/UCyOuqiSs2OLLkC1bt7lV2Yg/live)
 - [Facebook](https://www.facebook.com/cienciasatmosfericas/live/)
 
+## 1st PEMS, RSD and Emission Models Workshop (PREM)
+
+
+
+### May 27. 2021, 20:00-22:00 UTC (17:00 Brazil time)
+
+
+- 20:00 Introduction: Dr. Sergio Ibarra-Espinosa
+- 20:03 Vehicular emissions and air quality. Dr. Edmilson Dias de Freitas
+- 20:15 Linking vehicle emission measurements to useful emission models. Dr. Robin Smit
+- 20:30 Vehicle Emissions Remote Sensing using EDAR. Dr. Karl Ropkins
+- 20:45 PEMS measurements. Dr. Mauricio Osses Alvarado 21:00 An international bottom-up inventory of public transport emissions​. Dr. Rafael H. M. Pereira, Dr. Joao Pedro Bazzo Vieiraand Dr. Pedro Andrade
+- 21:15 NOx emission modelling. Dr. Zamir Mera - Docente FICA
+- 21:30 Evaluation of TDI Engine Nitrogen Oxide Emissions in Chile Measured with PEMS. Kevin Basoa Barraza and Sebastian Tolvett
+- 21:45 PEMS development. MSc.André Forcetto
+- 22:00 Final Wrap-up
+
+**URL**
+https://www.youtube.com/channel/UCyOuqiSs2OLLkC1bt7lV2Yg/live
+https://www.facebook.com/cienciasatmosfericas/live/ 
+
+
+
 
 | Invited                  | Bio                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |   |
 |--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
