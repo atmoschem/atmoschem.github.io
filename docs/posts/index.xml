@@ -5,5 +5,26 @@
     <link>https://atmoschem.github.io/posts/</link>
     <description>Recent content in News on atmoschem</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://atmoschem.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VEIN course con CASAP VIII Conference</title>
+      <link>https://atmoschem.github.io/posts/curso01/</link>
+      <pubDate>Wed, 30 Jun 2021 17:28:36 -0300</pubDate>
+      
+      <guid>https://atmoschem.github.io/posts/curso01/</guid>
+      <description>I will be giving a VEIN course the Colombian Conference on Air quality: Air Quality and Public Heath – CASAP VIII
+https://www.casap.com.co/en/home/
+https://www.casap.com.co/en/pre-congress-courses/
+All the couse will be here https://ibarraespinosa.github.io/cursovein/</description>
+    </item>
+    
+    <item>
+      <title>Talk about VEIN on Universidad Nacional Tecnologica de Lima Sur, Peru</title>
+      <link>https://atmoschem.github.io/posts/talk01/</link>
+      <pubDate>Wed, 30 Jun 2021 13:20:29 -0300</pubDate>
+      
+      <guid>https://atmoschem.github.io/posts/talk01/</guid>
+      <description>I will be giving a talk about the VEIN model and its latests features on the Talk about VEIN on Universidad Nacional Tecnologica de Lima Sur, Peru. The talk will be online on July 6, 2021 at 12:00 Peruvian time.</description>
+    </item>
+    
   </channel>
 </rss>

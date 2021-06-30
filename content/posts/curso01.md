@@ -1,7 +1,7 @@
 ---
 title: "VEIN course con CASAP VIII Conference"
 date: 2021-06-30T17:28:36-03:00
-draft: true
+draft: false
 ---
 
 I will be giving a VEIN course the Colombian Conference on Air quality:
