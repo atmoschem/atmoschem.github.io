@@ -152,15 +152,6 @@ All the couse will be here https://ibarraespinosa.github.io/cursovein/</descript
     </item>
     
     <item>
-      <title>Talk about VEIN on Universidad Nacional Tecnologica de Lima Sur, Peru</title>
-      <link>https://atmoschem.github.io/posts/talk01/</link>
-      <pubDate>Wed, 30 Jun 2021 13:20:29 -0300</pubDate>
-      
-      <guid>https://atmoschem.github.io/posts/talk01/</guid>
-      <description>I will be giving a talk about the VEIN model and its latests features on the Talk about VEIN on Universidad Nacional Tecnologica de Lima Sur, Peru. The talk will be online on July 6, 2021 at 12:00 Peruvian time.</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://atmoschem.github.io/_includes/include-page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -169,6 +160,15 @@ All the couse will be here https://ibarraespinosa.github.io/cursovein/</descript
       <description>Example page include
 Example Shortcode
 Shortcode used in an include page.     Head 1 Head 2 Head 3     1 2 3    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atmoschem.github.io/posts/talk01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/posts/talk01/</guid>
+      <description>i&amp;mdash; title: &amp;ldquo;Talk about VEIN on Universidad Nacional Tecnologica de Lima Sur, Peru&amp;rdquo; date: 2021-06-30T13:20:29-03:00    I will be giving a talk about the VEIN model and its latests features on the Talk about VEIN on Universidad Nacional Tecnologica de Lima Sur, Peru. The talk will be online on July 6, 2021 at 12:00 Peruvian time.</description>
     </item>
     
     <item>
