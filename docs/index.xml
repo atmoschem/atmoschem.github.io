@@ -105,6 +105,18 @@ library(cptcity) find_cpt(&amp;#34;radar&amp;#34;) ## [1] &amp;quot;idv_radar_db
     </item>
     
     <item>
+      <title>fem</title>
+      <link>https://atmoschem.github.io/rpackages/fem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/rpackages/fem/</guid>
+      <description>--  build:     github:  
+  Fixed Emissions Model (FEM)    A model to speciate emissions. In the future, it will include estimation methods, methods, classes and more.
+It includes emissions from:
+Kawashima, A. B., Martins, L. D., Abou Rafee, S. A., Rudke, A. P., #’ de Morais, M. V., &amp;amp; Martins, J. A. (2020). #’ Development of a spatialized atmospheric emission inventory for the main #’ industrial sources in Brazil.</description>
+    </item>
+    
+    <item>
       <title>VEIN 2020</title>
       <link>https://atmoschem.github.io/courses/vein-2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

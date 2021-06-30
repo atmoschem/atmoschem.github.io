@@ -93,5 +93,17 @@ There are three functions:
 library(cptcity) find_cpt(&amp;#34;radar&amp;#34;) ## [1] &amp;quot;idv_radar_dbz_nws&amp;quot; &amp;quot;idv_radar_dbz&amp;quot; &amp;quot;idv_radar_reflect_24&amp;quot; ## [4] &amp;quot;idv_radar_topo_mdr&amp;quot; &amp;quot;ncl_radar_1&amp;quot; &amp;quot;ncl_radar&amp;quot;  find_cpt(&amp;#34;rain&amp;#34;) ## [1] &amp;quot;colo_alpen_sky_rain_brolly&amp;quot; ## [2] &amp;quot;colo_lightningmccarl_taste_the_rainbow&amp;quot; ## [3] &amp;quot;ds9_rainbow&amp;quot; ## [4] &amp;quot;gist_rainbow&amp;quot; ## [5] &amp;quot;gmt_GMT_rainbow&amp;quot; ## [6] &amp;quot;grass_rainbow&amp;quot; ## [7] &amp;quot;grass_terrain&amp;quot; ## [8] &amp;quot;imagej_brain&amp;quot; ## [9] &amp;quot;jjg_ccolo_alpen_sky_rain_brolly&amp;quot; ## [10] &amp;quot;jjg_ccolo_lightningmccarl_taste_the_rainbow&amp;quot; ## [11] &amp;quot;jjg_misc_rainfall&amp;quot; ## [12] &amp;quot;jjg_neo10_elem_rain&amp;quot; ## [13] &amp;quot;jjg_neo10_othr_faint_rainbow&amp;quot; ## [14] &amp;quot;jjg_neo10_othr_pastel_rainbow&amp;quot; ## [15] &amp;quot;jjg_neo10_othr_rainbow_sunset&amp;quot; ## [16] &amp;quot;kst_13_rainbow&amp;quot; ## [17] &amp;quot;kst_34_rainbow&amp;quot; ## [18] &amp;quot;kst_38_rainbow18&amp;quot; ## [19] &amp;quot;kst_39_rainbow_white&amp;quot; ## [20] &amp;quot;kst_40_rainbow_black&amp;quot; ## [21] &amp;quot;ma_icecream_rainbowsherbet&amp;quot; ## [22] &amp;quot;neota_elem_rain&amp;quot; ## [23] &amp;quot;neota_othr_faint_rainbow&amp;quot; ## [24] &amp;quot;neota_othr_pastel_rainbow&amp;quot; ## [25] &amp;quot;neota_othr_rainbow_sunset&amp;quot; ## [26] &amp;quot;oc_rainbow&amp;quot; ## [27] &amp;quot;ocal_spectrum_rainbow_medium&amp;quot; ## [28] &amp;quot;ocal_spectrums_rainbow_002&amp;quot; ## [29] &amp;quot;ocal_spectrums_rainbow&amp;quot; ## [30] &amp;quot;pd_skies_rainbow&amp;quot; ## [31] &amp;quot;pj_1_a_rainbow&amp;quot; ## [32] &amp;quot;pj_1_black_rainbow&amp;quot; ## [33] &amp;quot;pj_2_palest_rainbow&amp;quot; ## [34] &amp;quot;pj_2_white_rainbow&amp;quot; ## [35] &amp;quot;pj_2_wisteria_rain&amp;quot; ## [36] &amp;quot;pj_4_deeprainbow&amp;quot; ## [37] &amp;quot;pj_5_anotherrainbow&amp;quot; ## [38] &amp;quot;pj_5_harryrainbow&amp;quot; ## [39] &amp;quot;pj_5_mysticrainbow&amp;quot; ## [40] &amp;quot;pj_5_rainbowrich&amp;quot; ## [41] &amp;quot;pj_classic_paler_rainbow&amp;quot; ## [42] &amp;quot;rc_rainbow&amp;quot; ## [43] &amp;quot;ukmo_main_rain_mmh&amp;quot; ## [44] &amp;quot;ukmo_wow_rain_mmh&amp;quot;  cpt: To return the colour gradient.</description>
     </item>
     
+    <item>
+      <title>fem</title>
+      <link>https://atmoschem.github.io/rpackages/fem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/rpackages/fem/</guid>
+      <description>--  build:     github:  
+  Fixed Emissions Model (FEM)    A model to speciate emissions. In the future, it will include estimation methods, methods, classes and more.
+It includes emissions from:
+Kawashima, A. B., Martins, L. D., Abou Rafee, S. A., Rudke, A. P., #’ de Morais, M. V., &amp;amp; Martins, J. A. (2020). #’ Development of a spatialized atmospheric emission inventory for the main #’ industrial sources in Brazil.</description>
+    </item>
+    
   </channel>
 </rss>

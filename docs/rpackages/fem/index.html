@@ -10,11 +10,14 @@
 
 
 
-    <meta name="description" content="Level 2.2">
+    <meta name="description" content="--  build:     github:  
+  Fixed Emissions Model (FEM)    A model to speciate emissions. In the future, it will include estimation methods, methods, classes and more.
+It includes emissions from:
+Kawashima, A. B., Martins, L. D., Abou Rafee, S. A., Rudke, A. P., #’ de Morais, M. V., &amp; Martins, J. A. (2020). #’ Development of a spatialized atmospheric emission inventory for the main #’ industrial sources in Brazil.">
 
 
 
-    <title>Level 2.2 | atmoschem</title>
+    <title>fem | atmoschem</title>
 
     <link rel="icon" href="/favicon/favicon-32x32.png" type="image/x-icon">
 
@@ -812,7 +815,7 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             
             
                 <span class="flex">
-                    <a href="/rpackages/fem/" class="gdoc-nav__entry ">
+                    <a href="/rpackages/fem/" class="gdoc-nav__entry is-active">
                         fem
                     </a>
                 </span>
@@ -1110,15 +1113,7 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
         
     
     
-        
-        
-        
-        
-    
-    
-        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/' href='/'><span itemprop='name'>Welcome to AtmosChem</span></a><meta itemprop='position' content='1' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/toc-tree/' href='/toc-tree/'><span itemprop='name'>ToC Tree</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/toc-tree/level-2/' href='/toc-tree/level-2/'><span itemprop='name'>Level 2</span></a><meta itemprop='position' content='3' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>Level 2.2</span><meta itemprop='position' content='4' /></li>
-    
-
+        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/' href='/'><span itemprop='name'>Welcome to AtmosChem</span></a><meta itemprop='position' content='1' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/rpackages/' href='/rpackages/'><span itemprop='name'>R Packages</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>fem</span><meta itemprop='position' content='3' /></li>
     
 
     
@@ -1133,8 +1128,75 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
 
 
     <article class="gdoc-markdown">
-        <h1>Level 2.2</h1>
-        <p>Level 2.2</p>
+        <h1>fem</h1>
+        <!-- <img src="man/figures/logo.png" align="right" alt="" width="220" /> -->
+<ul>
+<li>build:
+<a class="gdoc-markdown__link--raw" href="http://cran.r-project.org/web/packages/fem"><img src="http://www.r-pkg.org/badges/version/fem" alt="CRAN_Status_Badge"  /></a>
+<a class="gdoc-markdown__link--raw" href="http://cran.r-project.org/package=fem"><img src="http://cranlogs.r-pkg.org/badges/grand-total/fem?color=orange" alt="CRAN
+Downloads"  /></a>
+<a class="gdoc-markdown__link--raw" href="https://www.tidyverse.org/lifecycle/#maturing"><img src="https://img.shields.io/badge/lifecycle-maturing-blue.svg" alt="Package
+Status"  /></a>
+<img src="https://img.shields.io/fem/l/fem?style=plastic" alt="CRAN/METACRAN"  /></li>
+<li>github: <a class="gdoc-markdown__link--raw" href="https://github.com/atmoschem/fem"><img src="https://img.shields.io/github/stars/atmoschem/fem.svg?style=social&amp;label=Github" alt="Github
+Stars"  /></a>
+<img src="https://img.shields.io/github/languages/code-size/atmoschem/fem" alt="GitHub code size in
+bytes"  />
+<img src="https://img.shields.io/github/issues/atmoschem/fem" alt="GitHub issues"  />
+<!-- ![Liberapay giving](https://img.shields.io/liberapay/gives/sergio.ibarra) -->
+<p><img src="https://img.shields.io/github/commit-activity/y/ibarraespinosa/fem" alt="GitHub commit
+activity"  />
+<a class="gdoc-markdown__link--raw" href="https://github.com/atmoschem/fem/actions"><img src="https://github.com/atmoschem/fem/workflows/R-CMD-check/badge.svg" alt="R build
+status"  /></a></p>
+</li>
+</ul>
+<!-- ![](https://github.com/atmoschem/fem/raw/master/all_comp.gif) -->
+<div class="gdoc-page__anchorwrap">
+    <h1 id="fixed-emissions-model-fem">
+        Fixed Emissions Model (FEM)
+        <a data-clipboard-text="https://atmoschem.github.io/rpackages/fem/#fixed-emissions-model-fem" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Fixed Emissions Model (FEM)" href="#fixed-emissions-model-fem">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h1>
+</div><p>A model to speciate emissions. In the future, it will include estimation
+methods, methods, classes and more.</p>
+<p>It includes emissions from:</p>
+<p>Kawashima, A. B., Martins, L. D., Abou Rafee, S. A., Rudke, A. P., #’
+de Morais, M. V., &amp; Martins, J. A. (2020). #’ Development of a
+spatialized atmospheric emission inventory for the main #’ industrial
+sources in Brazil. Environmental Science and Pollution Research, 1-11.</p>
+<div class="gdoc-page__anchorwrap">
+    <h2 id="installation">
+        Installation
+        <a data-clipboard-text="https://atmoschem.github.io/rpackages/fem/#installation" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Installation" href="#installation">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="n">remotes</span><span class="o">::</span><span class="nf">install_github</span><span class="p">(</span><span class="s">&#34;atmoschem/fem&#34;</span><span class="p">)</span>
+</code></pre></div><div class="gdoc-page__anchorwrap">
+    <h2 id="use">
+        Use
+        <a data-clipboard-text="https://atmoschem.github.io/rpackages/fem/#use" class="gdoc-page__anchor gdoc-page__anchor--right clip" aria-label="Anchor Use" href="#use">
+            <svg class="icon gdoc_link"><use xlink:href="#gdoc_link"></use></svg>
+        </a>
+    </h2>
+</div><div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="n">pm</span> <span class="o">&lt;-</span> <span class="nf">rnorm</span><span class="p">(</span><span class="n">n</span> <span class="o">=</span> <span class="m">100</span><span class="p">,</span> <span class="n">mean</span> <span class="o">=</span> <span class="m">400</span><span class="p">,</span> <span class="n">sd</span> <span class="o">=</span> <span class="m">2</span><span class="p">)</span>
+<span class="p">(</span><span class="n">df</span> <span class="o">&lt;-</span> <span class="n">fem</span><span class="o">::</span><span class="nf">spec_industry</span><span class="p">(</span><span class="n">pm</span><span class="p">,</span> <span class="n">code</span> <span class="o">=</span> <span class="s">&#34;01_petroleum&#34;</span><span class="p">))</span>
+<span class="c1">#&gt;                x                                   species</span>
+<span class="c1">#&gt;     1: 5.8170167 1-(1,1-dimethylethyl)-3,5-dimethylbenzene</span>
+<span class="c1">#&gt;     2: 5.7659381 1-(1,1-dimethylethyl)-3,5-dimethylbenzene</span>
+<span class="c1">#&gt;     3: 5.7898846 1-(1,1-dimethylethyl)-3,5-dimethylbenzene</span>
+<span class="c1">#&gt;     4: 5.8304557 1-(1,1-dimethylethyl)-3,5-dimethylbenzene</span>
+<span class="c1">#&gt;     5: 5.8368646 1-(1,1-dimethylethyl)-3,5-dimethylbenzene</span>
+<span class="c1">#&gt;    ---                                                    </span>
+<span class="c1">#&gt; 14496: 0.2073150                            vinyl chloride</span>
+<span class="c1">#&gt; 14497: 0.2063975                            vinyl chloride</span>
+<span class="c1">#&gt; 14498: 0.2068395                            vinyl chloride</span>
+<span class="c1">#&gt; 14499: 0.2065491                            vinyl chloride</span>
+<span class="c1">#&gt; 14500: 0.2069582                            vinyl chloride</span>
+</code></pre></div><p>Connection with <a class="gdoc-markdown__link" href="https://github.com/atmoschem/vein">vein</a></p>
+<p>FEM is designed to be used with VEIN and generate inputs for different
+chemical mechanisms</p>
 
 
     </article>
@@ -1314,9 +1376,6 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
 
             
 
-            
-                
-                
             
 
             
