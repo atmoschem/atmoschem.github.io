@@ -16,5 +16,17 @@ Aqui os videos:
     </description>
     </item>
     
+    <item>
+      <title>VEIN 2021</title>
+      <link>https://atmoschem.github.io/courses/vein-2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein-2021/</guid>
+      <description>I will be giving a VEIN course on the Colombian air quality conference CASAP VIII
+The information about the conference is here https://www.casap.com.co/en/pre-congress-courses/
+But all the content of the course will be here https://ibarraespinosa.github.io/cursovein/
+More information coming soon!</description>
+    </item>
+    
   </channel>
 </rss>
