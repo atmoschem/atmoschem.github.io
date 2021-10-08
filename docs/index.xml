@@ -47,17 +47,6 @@ To Ubuntu    The following steps are required for installation on Ubuntu:</descr
     </item>
     
     <item>
-      <title>2021/10/08 VEIN5</title>
-      <link>https://atmoschem.github.io/workshops/vein5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://atmoschem.github.io/workshops/vein5/</guid>
-      <description>VEIN 5 YEARS OLD!    We celebrate 5 years of VEIN.
-The first release
-The first release of VEIN was on October 19, 2016 under a brief period named of REMI. This means that is 5 years this month. So, the Tuesday 19 of October 2019, at 16:00 Brsilia time, We will have a oresentation VEIN5 to celebrate 5 years of VEIN. We will have presentation from researchers from Al over Brazil, Ecuador and more.</description>
-    </item>
-    
-    <item>
       <title>respeciate</title>
       <link>https://atmoschem.github.io/rpackages/respeciate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -70,14 +59,14 @@ library(respeciate) x &amp;lt;- find_code(&amp;#34;Ethanol&amp;#34;) x$PROFILE_C
     </item>
     
     <item>
-      <title>2021/05/27 PEMS</title>
-      <link>https://atmoschem.github.io/workshops/pems/</link>
+      <title>VEIN5, 5 years if VEIN</title>
+      <link>https://atmoschem.github.io/workshops/vein5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://atmoschem.github.io/workshops/pems/</guid>
-      <description>PEMS, RSD and Emission Models    This workshop, on May 27 20:00 UTC, will gather cutting edge research on this topic. To participate, click on:
- YouTube Facebook  
-1st PEMS, RSD and Emission Models Workshop (PREM)    May 27. 2021, 20:00-22:00 UTC (17:00 Brazil time)     20:00 Introduction: Dr. Sergio Ibarra-Espinosa 20:03 Vehicular emissions and air quality. Dr. Edmilson Dias de Freitas 20:15 Linking vehicle emission measurements to useful emission models.</description>
+      <guid>https://atmoschem.github.io/workshops/vein5/</guid>
+      <description>VEIN 5 YEARS OLD!    We celebrate 5 years of VEIN.
+The first release
+The first release of VEIN was on October 19, 2016 under a brief period named of REMI. This means that is 5 years this month. So, the Tuesday 19 of October 2019, at 16:00 Brsilia time, We will have a oresentation VEIN5 to celebrate 5 years of VEIN. We will have presentation from researchers from Al over Brazil, Ecuador and more.</description>
     </item>
     
     <item>
@@ -90,6 +79,17 @@ library(respeciate) x &amp;lt;- find_code(&amp;#34;Ethanol&amp;#34;) x$PROFILE_C
 Installation    You can install koffing from github with:
 # install.packages(&amp;#34;devtools&amp;#34;) devtools::install_github(&amp;#34;atmoschem/koffing&amp;#34;) CETESB scraper    To scrape data from the CETESB qualar system, use the function scraper_cetesb().
 library(koffing) koffing::scraper_cetesb( parameter = 99, station = 17, start = &amp;#34;01/01/2018&amp;#34;, end = &amp;#34;31/01/2018&amp;#34;, login = &amp;#34;login&amp;#34;, password = &amp;#34;password&amp;#34; ) If you substitute the values login and password by your login and password from the Qualar system, this example will return the hourly NO concentrations from the Pinheiros station for January 2018.</description>
+    </item>
+    
+    <item>
+      <title>PEMS</title>
+      <link>https://atmoschem.github.io/workshops/pems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/workshops/pems/</guid>
+      <description>PEMS, RSD and Emission Models    This workshop, on May 27 20:00 UTC, will gather cutting edge research on this topic. To participate, click on:
+ YouTube Facebook  
+1st PEMS, RSD and Emission Models Workshop (PREM)    May 27. 2021, 20:00-22:00 UTC (17:00 Brazil time)     20:00 Introduction: Dr. Sergio Ibarra-Espinosa 20:03 Vehicular emissions and air quality. Dr. Edmilson Dias de Freitas 20:15 Linking vehicle emission measurements to useful emission models.</description>
     </item>
     
     <item>
