@@ -6,33 +6,24 @@
     <description>Recent content in News on atmoschem</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://atmoschem.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>https://atmoschem.github.io/posts/my-first-post/</link>
-      <pubDate>Thu, 06 May 2021 21:35:06 -0300</pubDate>
+      <title>VEIN course con CASAP VIII Conference</title>
+      <link>https://atmoschem.github.io/posts/curso01/</link>
+      <pubDate>Wed, 30 Jun 2021 17:28:36 -0300</pubDate>
       
-      <guid>https://atmoschem.github.io/posts/my-first-post/</guid>
-      <description>hola hola    </description>
+      <guid>https://atmoschem.github.io/posts/curso01/</guid>
+      <description>I will be giving a VEIN course the Colombian Conference on Air quality: Air Quality and Public Heath – CASAP VIII
+https://www.casap.com.co/en/home/
+https://www.casap.com.co/en/pre-congress-courses/
+All the couse will be here https://ibarraespinosa.github.io/cursovein/</description>
     </item>
     
     <item>
-      <title>Initial release</title>
-      <link>https://atmoschem.github.io/posts/initial-release/</link>
-      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
+      <title></title>
+      <link>https://atmoschem.github.io/posts/talk01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://atmoschem.github.io/posts/initial-release/</guid>
-      <description>This is the first release of the Geekdoc theme.
-Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re. Pro ad prompts feud gait, quid exercise emeritus bis e. In pro quints consequent, denim fastidious copious quo ad. Stet probates in duo.</description>
-    </item>
-    
-    <item>
-      <title>Hello Geekdoc</title>
-      <link>https://atmoschem.github.io/posts/hello_geekdoc/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://atmoschem.github.io/posts/hello_geekdoc/</guid>
-      <description>This is the first release of the Geekdoc theme.
-Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re. Pro ad prompts feud gait, quid exercise emeritus bis e. In pro quints consequent, denim fastidious copious quo ad. Stet probates in duo.
-Amalia id per in minimum facility, quid facet modifier ea ma. Ill um select ma ad, en ferric patine sentient vim.</description>
+      <guid>https://atmoschem.github.io/posts/talk01/</guid>
+      <description>i&amp;mdash; title: &amp;ldquo;Talk about VEIN on Universidad Nacional Tecnologica de Lima Sur, Peru&amp;rdquo; date: 2021-06-30T13:20:29-03:00    I will be giving a talk about the VEIN model and its latests features on the Talk about VEIN on Universidad Nacional Tecnologica de Lima Sur, Peru. The talk will be online on July 6, 2021 at 12:00 Peruvian time.</description>
     </item>
     
   </channel>

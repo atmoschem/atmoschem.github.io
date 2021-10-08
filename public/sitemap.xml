@@ -28,13 +28,17 @@
   </url>
   
   <url>
+    <loc>https://atmoschem.github.io/workshops/vein5/</loc>
+  </url>
+  
+  <url>
     <loc>https://atmoschem.github.io/rpackages/respeciate/</loc>
     <lastmod>2021-05-07T08:50:48-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://atmoschem.github.io/workshops/pems/</loc>
-    <lastmod>2021-05-26T12:16:44-03:00</lastmod>
+    <lastmod>2021-05-26T18:32:56-03:00</lastmod>
   </url>
   
   <url>
@@ -58,6 +62,11 @@
   </url>
   
   <url>
+    <loc>https://atmoschem.github.io/rpackages/fem/</loc>
+    <lastmod>2021-06-30T17:57:44-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://atmoschem.github.io/courses/</loc>
     <lastmod>2021-05-07T08:50:48-03:00</lastmod>
   </url>
@@ -68,23 +77,18 @@
   </url>
   
   <url>
+    <loc>https://atmoschem.github.io/courses/vein-2021/</loc>
+    <lastmod>2021-06-30T17:48:30-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://atmoschem.github.io/posts/</loc>
     <lastmod>2021-05-07T06:54:23-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://atmoschem.github.io/posts/my-first-post/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/posts/initial-release/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/posts/hello_geekdoc/</loc>
-    <lastmod>2021-05-07T06:54:23-03:00</lastmod>
+    <loc>https://atmoschem.github.io/posts/curso01/</loc>
+    <lastmod>2021-06-30T17:50:56-03:00</lastmod>
   </url>
   
   <url>
@@ -105,6 +109,11 @@
   <url>
     <loc>https://atmoschem.github.io/collapse/level-2/</loc>
     <lastmod>2021-05-07T06:54:23-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atmoschem.github.io/posts/talk01/</loc>
+    <lastmod>2021-06-30T17:58:54-03:00</lastmod>
   </url>
   
   <url>

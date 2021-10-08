@@ -47,6 +47,17 @@ To Ubuntu    The following steps are required for installation on Ubuntu:</descr
     </item>
     
     <item>
+      <title>2021/10/08 VEIN5</title>
+      <link>https://atmoschem.github.io/workshops/vein5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/workshops/vein5/</guid>
+      <description>VEIN 5 YEARS OLD!    We celebrate 5 years of VEIN.
+The first release
+The first release of VEIN was on October 19, 2016 under a brief period named of REMI. This means that is 5 years this month. So, the Tuesday 19 of October 2019, at 16:00 Brsilia time, We will have a oresentation VEIN5 to celebrate 5 years of VEIN. We will have presentation from researchers from Al over Brazil, Ecuador and more.</description>
+    </item>
+    
+    <item>
       <title>respeciate</title>
       <link>https://atmoschem.github.io/rpackages/respeciate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -65,7 +76,8 @@ library(respeciate) x &amp;lt;- find_code(&amp;#34;Ethanol&amp;#34;) x$PROFILE_C
       
       <guid>https://atmoschem.github.io/workshops/pems/</guid>
       <description>PEMS, RSD and Emission Models    This workshop, on May 27 20:00 UTC, will gather cutting edge research on this topic. To participate, click on:
- YouTube Facebook     Invited Bio      André Forcetto Andre Forcetto has a master’s degree in Environment, Health and Sustainability from Universidade de São Paulo and he’s a doctoral student in Atmospheric Sciences at IAG-USP, focused on the development of a low-cost PEMS.</description>
+ YouTube Facebook  
+1st PEMS, RSD and Emission Models Workshop (PREM)    May 27. 2021, 20:00-22:00 UTC (17:00 Brazil time)     20:00 Introduction: Dr. Sergio Ibarra-Espinosa 20:03 Vehicular emissions and air quality. Dr. Edmilson Dias de Freitas 20:15 Linking vehicle emission measurements to useful emission models.</description>
     </item>
     
     <item>
@@ -104,6 +116,18 @@ library(cptcity) find_cpt(&amp;#34;radar&amp;#34;) ## [1] &amp;quot;idv_radar_db
     </item>
     
     <item>
+      <title>fem</title>
+      <link>https://atmoschem.github.io/rpackages/fem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/rpackages/fem/</guid>
+      <description>--  build:     github:  
+  Fixed Emissions Model (FEM)    A model to speciate emissions. In the future, it will include estimation methods, methods, classes and more.
+It includes emissions from:
+Kawashima, A. B., Martins, L. D., Abou Rafee, S. A., Rudke, A. P., #’ de Morais, M. V., &amp;amp; Martins, J. A. (2020). #’ Development of a spatialized atmospheric emission inventory for the main #’ industrial sources in Brazil.</description>
+    </item>
+    
+    <item>
       <title>VEIN 2020</title>
       <link>https://atmoschem.github.io/courses/vein-2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -115,33 +139,27 @@ Aqui os videos:
     </item>
     
     <item>
-      <title>My First Post</title>
-      <link>https://atmoschem.github.io/posts/my-first-post/</link>
-      <pubDate>Thu, 06 May 2021 21:35:06 -0300</pubDate>
+      <title>VEIN 2021</title>
+      <link>https://atmoschem.github.io/courses/vein-2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://atmoschem.github.io/posts/my-first-post/</guid>
-      <description>hola hola    </description>
+      <guid>https://atmoschem.github.io/courses/vein-2021/</guid>
+      <description>I will be giving a VEIN course on the Colombian air quality conference CASAP VIII
+The information about the conference is here https://www.casap.com.co/en/pre-congress-courses/
+But all the content of the course will be here https://ibarraespinosa.github.io/cursovein/
+More information coming soon!</description>
     </item>
     
     <item>
-      <title>Initial release</title>
-      <link>https://atmoschem.github.io/posts/initial-release/</link>
-      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
+      <title>VEIN course con CASAP VIII Conference</title>
+      <link>https://atmoschem.github.io/posts/curso01/</link>
+      <pubDate>Wed, 30 Jun 2021 17:28:36 -0300</pubDate>
       
-      <guid>https://atmoschem.github.io/posts/initial-release/</guid>
-      <description>This is the first release of the Geekdoc theme.
-Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re. Pro ad prompts feud gait, quid exercise emeritus bis e. In pro quints consequent, denim fastidious copious quo ad. Stet probates in duo.</description>
-    </item>
-    
-    <item>
-      <title>Hello Geekdoc</title>
-      <link>https://atmoschem.github.io/posts/hello_geekdoc/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://atmoschem.github.io/posts/hello_geekdoc/</guid>
-      <description>This is the first release of the Geekdoc theme.
-Dolor sit, sumo unique argument um no. Gracie nominal id xiv. Romanesque acclimates investiture. Ornateness bland it ex enc, est yeti am bongo detract re. Pro ad prompts feud gait, quid exercise emeritus bis e. In pro quints consequent, denim fastidious copious quo ad. Stet probates in duo.
-Amalia id per in minimum facility, quid facet modifier ea ma. Ill um select ma ad, en ferric patine sentient vim.</description>
+      <guid>https://atmoschem.github.io/posts/curso01/</guid>
+      <description>I will be giving a VEIN course the Colombian Conference on Air quality: Air Quality and Public Heath – CASAP VIII
+https://www.casap.com.co/en/home/
+https://www.casap.com.co/en/pre-congress-courses/
+All the couse will be here https://ibarraespinosa.github.io/cursovein/</description>
     </item>
     
     <item>
@@ -153,6 +171,15 @@ Amalia id per in minimum facility, quid facet modifier ea ma. Ill um select ma a
       <description>Example page include
 Example Shortcode
 Shortcode used in an include page.     Head 1 Head 2 Head 3     1 2 3    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://atmoschem.github.io/posts/talk01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/posts/talk01/</guid>
+      <description>i&amp;mdash; title: &amp;ldquo;Talk about VEIN on Universidad Nacional Tecnologica de Lima Sur, Peru&amp;rdquo; date: 2021-06-30T13:20:29-03:00    I will be giving a talk about the VEIN model and its latests features on the Talk about VEIN on Universidad Nacional Tecnologica de Lima Sur, Peru. The talk will be online on July 6, 2021 at 12:00 Peruvian time.</description>
     </item>
     
     <item>
