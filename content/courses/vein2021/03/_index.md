@@ -1,5 +1,5 @@
 ---
-title: Factores de emisión
+title: 6. Factores de emisión
 weight: -7
 geekdocCollapseSection: true
 ---
@@ -11,4 +11,4 @@ geekdocCollapseSection: true
 <!-- spellchecker-enable -->
 
 
-factores
+Los factores de emisión considerados son los mencionados en las sub-páginas.
