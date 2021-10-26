@@ -14,7 +14,7 @@
       <description>VEIN importa funciones de diferentes librerias:
  sf data.table units graphics stats dotCall64 cptcity fields grDevices  Para intalar todo automaticamente, solo deberia hacer:
 install.packages(&amp;#34;vein&amp;#34;) Además, para correr los proyectos de VEIN, es necesario instalar librerias adicionales:
- readxl ggplot2 eixport  Descripción de las dependencias    sf    VEIN importa funciones de las libreria sf, por lo que sus dependencias tienen que estar instaladas en el sistema.</description>
+ readxl ggplot2 eixport  install.packages(c(&amp;#34;readxl&amp;#34;, &amp;#34;ggplot2&amp;#34;, &amp;#34;eixport&amp;#34;)) Descripción de las dependencias    sf    VEIN importa funciones de las libreria sf, por lo que sus dependencias tienen que estar instaladas en el sistema.</description>
     </item>
     
     <item>
