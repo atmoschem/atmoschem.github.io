@@ -6,6 +6,78 @@
     <description>Recent content in Welcome to AtmosChem on atmoschem</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://atmoschem.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Tubo de escape caliente</title>
+      <link>https://atmoschem.github.io/courses/vein2021/03/031/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/03/031/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+    <item>
+      <title>Partidas en Frío</title>
+      <link>https://atmoschem.github.io/courses/vein2021/03/032/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/03/032/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+    <item>
+      <title>Evaporativas</title>
+      <link>https://atmoschem.github.io/courses/vein2021/03/033/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/03/033/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+    <item>
+      <title>Deterioración</title>
+      <link>https://atmoschem.github.io/courses/vein2021/03/034/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/03/034/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+    <item>
+      <title>Corrección combustibles</title>
+      <link>https://atmoschem.github.io/courses/vein2021/03/035/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/03/035/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+    <item>
+      <title>Tubo de escape caliente</title>
+      <link>https://atmoschem.github.io/courses/vein2021/04/041/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/04/041/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+    <item>
+      <title>Partidas en Frío</title>
+      <link>https://atmoschem.github.io/courses/vein2021/04/042/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/04/042/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+    <item>
+      <title>Evaporativas</title>
+      <link>https://atmoschem.github.io/courses/vein2021/04/043/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/04/043/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+    <item>
       <title>vein</title>
       <link>https://atmoschem.github.io/rpackages/vein/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -139,15 +211,51 @@ Aqui os videos:
     </item>
     
     <item>
-      <title>VEIN 2021</title>
-      <link>https://atmoschem.github.io/courses/vein-2021/</link>
+      <title>Instalación</title>
+      <link>https://atmoschem.github.io/courses/vein2021/00/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://atmoschem.github.io/courses/vein-2021/</guid>
-      <description>I will be giving a VEIN course on the Colombian air quality conference CASAP VIII
-The information about the conference is here https://www.casap.com.co/en/pre-congress-courses/
-But all the content of the course will be here https://ibarraespinosa.github.io/cursovein/
-More information coming soon!</description>
+      <guid>https://atmoschem.github.io/courses/vein2021/00/</guid>
+      <description>VEIN importa funciones de diferentes librerias:
+ sf data.table units graphics stats dotCall64 cptcity fields grDevices  Para intalar todo automaticamente, solo deberia hacer:
+install.packages(&amp;#34;vein&amp;#34;) Además, para correr los proyectos de VEIN, es necesario instalar librerias adicionales:
+ readxl ggplot2 eixport  Descripción de las dependencias    sf    VEIN importa funciones de las libreria sf, por lo que sus dependencias tienen que estar instaladas en el sistema.</description>
+    </item>
+    
+    <item>
+      <title>Configuración</title>
+      <link>https://atmoschem.github.io/courses/vein2021/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/01/</guid>
+      <description>Level 1.1.1.1.</description>
+    </item>
+    
+    <item>
+      <title>Datos espaciales</title>
+      <link>https://atmoschem.github.io/courses/vein2021/02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/02/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+    <item>
+      <title>Plots</title>
+      <link>https://atmoschem.github.io/courses/vein2021/05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/05/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+    <item>
+      <title>Fotos</title>
+      <link>https://atmoschem.github.io/courses/vein2021/06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/06/</guid>
+      <description>Level 1.2</description>
     </item>
     
     <item>

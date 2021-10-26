@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emisiones on atmoschem</title>
+    <link>https://atmoschem.github.io/courses/vein2021/04/</link>
+    <description>Recent content in Emisiones on atmoschem</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://atmoschem.github.io/courses/vein2021/04/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tubo de escape caliente</title>
+      <link>https://atmoschem.github.io/courses/vein2021/04/041/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/04/041/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+    <item>
+      <title>Partidas en Frío</title>
+      <link>https://atmoschem.github.io/courses/vein2021/04/042/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/04/042/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+    <item>
+      <title>Evaporativas</title>
+      <link>https://atmoschem.github.io/courses/vein2021/04/043/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/04/043/</guid>
+      <description>Level 1.2</description>
+    </item>
+    
+  </channel>
+</rss>
