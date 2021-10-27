@@ -6,75 +6,85 @@
     <description>Recent content in Welcome to AtmosChem on atmoschem</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://atmoschem.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tubo de escape caliente</title>
-      <link>https://atmoschem.github.io/courses/vein2021/03/031/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://atmoschem.github.io/courses/vein2021/03/031/</guid>
-      <description>Level 1.2</description>
-    </item>
-    
-    <item>
-      <title>Partidas en Frío</title>
-      <link>https://atmoschem.github.io/courses/vein2021/03/032/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://atmoschem.github.io/courses/vein2021/03/032/</guid>
-      <description>Level 1.2</description>
-    </item>
-    
-    <item>
-      <title>Evaporativas</title>
-      <link>https://atmoschem.github.io/courses/vein2021/03/033/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://atmoschem.github.io/courses/vein2021/03/033/</guid>
-      <description>Level 1.2</description>
-    </item>
-    
-    <item>
-      <title>Deterioración</title>
-      <link>https://atmoschem.github.io/courses/vein2021/03/034/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://atmoschem.github.io/courses/vein2021/03/034/</guid>
-      <description>Level 1.2</description>
-    </item>
-    
-    <item>
-      <title>Corrección combustibles</title>
-      <link>https://atmoschem.github.io/courses/vein2021/03/035/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://atmoschem.github.io/courses/vein2021/03/035/</guid>
-      <description>Level 1.2</description>
-    </item>
-    
-    <item>
-      <title>Tubo de escape caliente</title>
+      <title>8.1 Tubo de escape caliente</title>
       <link>https://atmoschem.github.io/courses/vein2021/04/041/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://atmoschem.github.io/courses/vein2021/04/041/</guid>
-      <description>Level 1.2</description>
+      <description>Los factores de emisión son estimados en el script hot_exhaust_eea.R llamado desde main.R:
+# Exhaust #### language &amp;lt;- &amp;#34;spanish&amp;#34; # english spanish portuguese provincia &amp;lt;- unique(fuel$region)[as.numeric(basename(getwd()))] metadata &amp;lt;- readRDS(&amp;#34;config/metadata.rds&amp;#34;) mileage &amp;lt;- readRDS(&amp;#34;config/mileage.rds&amp;#34;) veh &amp;lt;- readRDS(&amp;#34;config/fleet_age.rds&amp;#34;) net &amp;lt;- readRDS(&amp;#34;network/net.rds&amp;#34;) pmonth &amp;lt;- readRDS(&amp;#34;config/pmonth.rds&amp;#34;) met &amp;lt;- readRDS(&amp;#34;config/met.rds&amp;#34;) euro &amp;lt;- readRDS(&amp;#34;config/euro.rds&amp;#34;) tech &amp;lt;- readRDS(&amp;#34;config/tech.rds&amp;#34;) fuel_spec &amp;lt;- readRDS(&amp;#34;config/fuel_spec.rds&amp;#34;) verbose &amp;lt;- FALSE year &amp;lt;- 2019 nt &amp;lt;- 10 # check_nt() / 2 pol &amp;lt;- c( &amp;#34;CO&amp;#34;, &amp;#34;HC&amp;#34;, &amp;#34;NMHC&amp;#34;, &amp;#34;NOx&amp;#34;, &amp;#34;CO2&amp;#34;, &amp;#34;PM&amp;#34;, &amp;#34;NO2&amp;#34;, &amp;#34;NO&amp;#34; ) source(&amp;#34;scripts/hot_exhaust_eea.</description>
     </item>
     
     <item>
-      <title>Partidas en Frío</title>
+      <title>8.2 Partidas en Frío</title>
       <link>https://atmoschem.github.io/courses/vein2021/04/042/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://atmoschem.github.io/courses/vein2021/04/042/</guid>
-      <description>Level 1.2</description>
+      <description>Los factores de emisión son estimados en el script cold_start_eea.R y llamados en main.R:
+# Exhaust #### language &amp;lt;- &amp;#34;spanish&amp;#34; # english spanish portuguese provincia &amp;lt;- unique(fuel$region)[as.numeric(basename(getwd()))] metadata &amp;lt;- readRDS(&amp;#34;config/metadata.rds&amp;#34;) mileage &amp;lt;- readRDS(&amp;#34;config/mileage.rds&amp;#34;) veh &amp;lt;- readRDS(&amp;#34;config/fleet_age.rds&amp;#34;) net &amp;lt;- readRDS(&amp;#34;network/net.rds&amp;#34;) pmonth &amp;lt;- readRDS(&amp;#34;config/pmonth.rds&amp;#34;) met &amp;lt;- readRDS(&amp;#34;config/met.rds&amp;#34;) euro &amp;lt;- readRDS(&amp;#34;config/euro.rds&amp;#34;) tech &amp;lt;- readRDS(&amp;#34;config/tech.rds&amp;#34;) fuel_spec &amp;lt;- readRDS(&amp;#34;config/fuel_spec.rds&amp;#34;) verbose &amp;lt;- FALSE year &amp;lt;- 2019 nt &amp;lt;- 10 # check_nt() / 2 pol &amp;lt;- c( &amp;#34;CO&amp;#34;, &amp;#34;NOx&amp;#34;, &amp;#34;NMHC&amp;#34;, &amp;#34;HC&amp;#34;, &amp;#34;NO2&amp;#34;, &amp;#34;NO&amp;#34; ) source(&amp;#34;scripts/cold_start_eea.</description>
     </item>
     
     <item>
-      <title>Evaporativas</title>
+      <title>8.3 Evaporativas</title>
       <link>https://atmoschem.github.io/courses/vein2021/04/043/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://atmoschem.github.io/courses/vein2021/04/043/</guid>
-      <description>Level 1.2</description>
+      <description>Los factores dependen de la temperatura media y del largo de viaje disponible en metadata, como largo del ciclo de conducción. Representa el largo medio del viaje.
+Los factores incluyen &amp;ldquo;diurnal&amp;rdquo;,&amp;ldquo;hot-soak&amp;rdquo; y &amp;ldquo;running losses&amp;rdquo;.
+La estimativa es llamada en main.R:
+# Evaporatives #### language &amp;lt;- &amp;#34;spanish&amp;#34; # english spanish portuguese provincia &amp;lt;- unique(fuel$region)[1] # provincia &amp;lt;- unique(fuel$region)[as.numeric(basename(getwd()))] metadata &amp;lt;- readRDS(&amp;#34;config/metadata.rds&amp;#34;) mileage &amp;lt;- readRDS(&amp;#34;config/mileage.rds&amp;#34;) veh &amp;lt;- readRDS(&amp;#34;config/fleet_age.rds&amp;#34;) net &amp;lt;- readRDS(&amp;#34;network/net.rds&amp;#34;) pmonth &amp;lt;- readRDS(&amp;#34;config/pmonth.</description>
+    </item>
+    
+    <item>
+      <title>8.4 Deterioración</title>
+      <link>https://atmoschem.github.io/courses/vein2021/04/044/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/04/044/</guid>
+      <description>El deterioro afecta a vehículos ciclo otto con tecnología superior a PRE-Euro, y significa en mas emisiones de CO, NOx e HC.
+El script hot_exhaust_eea.R incorpora estos factores</description>
+    </item>
+    
+    <item>
+      <title>8.5 Corrección combustibles</title>
+      <link>https://atmoschem.github.io/courses/vein2021/04/045/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/04/045/</guid>
+      <description>La correción por composición química del combustible consiste en que combustibles aptos para las nuevas tecnologías mas limpias generan disminuyen las emisiones de tecnologías mas antiguas, solo porque el combustible es mas limpio.</description>
+    </item>
+    
+    <item>
+      <title>8.6 Emisiones por desgaste</title>
+      <link>https://atmoschem.github.io/courses/vein2021/04/046/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/04/046/</guid>
+      <description>El desgaste de frenos, neumáticos y caminos genera emisiones de material particulado. La sección del script que estima estas emisiones en main.R es:
+# Wear #### language &amp;lt;- &amp;#34;spanish&amp;#34; # english spanish portuguese provincia &amp;lt;- unique(fuel$region)[1] # provincia &amp;lt;- unique(fuel$region)[as.numeric(basename(getwd()))] metadata &amp;lt;- readRDS(&amp;#34;config/metadata.rds&amp;#34;) mileage &amp;lt;- readRDS(&amp;#34;config/mileage.rds&amp;#34;) veh &amp;lt;- readRDS(&amp;#34;config/fleet_age.rds&amp;#34;) net &amp;lt;- readRDS(&amp;#34;network/net.rds&amp;#34;) pmonth &amp;lt;- readRDS(&amp;#34;config/pmonth.rds&amp;#34;) met &amp;lt;- readRDS(&amp;#34;config/met.rds&amp;#34;) euro &amp;lt;- readRDS(&amp;#34;config/euro.rds&amp;#34;) tech &amp;lt;- readRDS(&amp;#34;config/tech.rds&amp;#34;) fuel_spec &amp;lt;- readRDS(&amp;#34;config/fuel_spec.rds&amp;#34;) verbose &amp;lt;- FALSE year &amp;lt;- 2019 nt &amp;lt;- 10 # check_nt() / 2 source(&amp;#34;scripts/wear_eea.</description>
+    </item>
+    
+    <item>
+      <title>3.1 metadata</title>
+      <link>https://atmoschem.github.io/courses/vein2021/01/011/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/01/011/</guid>
+      <description>La metadata consiste en en la configuración inicial del inventario. Cuando se baja el proyecto, hay una carpeta llamada config y dentro de ella existe un archivo llamado inventory_ecuador.xlsx. En general, este archivo es llamado inventory.xlx en otros proyectos.
+Dentro de este archivo excel, existe una hoja llamada metadata que tiene el contenido principal. Las columnas que encontraras son:
+ family: Tiene los tipos basicos de vehículos, PC (Passenger Cars), LCV (Light Commercial Vehicles), TRUCKS, BUS y MC (Motorcycles).</description>
+    </item>
+    
+    <item>
+      <title>3.2 fleet_age</title>
+      <link>https://atmoschem.github.io/courses/vein2021/01/012/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/01/012/</guid>
+      <description>Consiste en la hoja llamada age_fleet que tiene los vehiculos registrados por tipo de vehiculo. La primera coluna es Year para el año y las siguientes columnas son las categorias vehiculares de la columna vehicles de metadata.
+En este caso hay vehiclos entre 2019 y 1959 registrados. Recuerda que en bloque de configuración de main.R se determina a que edad los vehículos salen de circulación, en este caso, age_max es 40.</description>
     </item>
     
     <item>
@@ -88,6 +98,16 @@
     </item>
     
     <item>
+      <title>3.3 tfs</title>
+      <link>https://atmoschem.github.io/courses/vein2021/01/013/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/01/013/</guid>
+      <description>TFS son los temporal factors, como mostrados en el paper de VEIN.
+Esta vez no seran usados, pues estamos estimando las emisiones a nivel de provincia, top-down.</description>
+    </item>
+    
+    <item>
       <title>eixport</title>
       <link>https://atmoschem.github.io/rpackages/eixport/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -95,6 +115,16 @@
       <guid>https://atmoschem.github.io/rpackages/eixport/</guid>
       <description>Exporting emissions to atmospheric models, eixport: 0.5.0    Emissions are mass that affects atmosphere in complex ways, not only physical, but also, in the health of humans, ecosystems, economically, etc.
 There are several models whose inputs are emissions, such as R-Line or WRF-Chem. This R-Package provide functions to read emissions from VEIN and from other models in different formats and export the emissions into the appropriate format suitable to other models.</description>
+    </item>
+    
+    <item>
+      <title>3.4 mileage</title>
+      <link>https://atmoschem.github.io/courses/vein2021/01/014/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/01/014/</guid>
+      <description>Son los quilometros que recorre cada vehículo por año de uso. En este caso los valores fueron obtenidos de mediciones de mas de un millón y médio de odometros de Brazil. Para saber mas detalles:
+library(vein) data(fkm) ?fkm </description>
     </item>
     
     <item>
@@ -116,6 +146,16 @@ To Ubuntu    The following steps are required for installation on Ubuntu:</descr
       <guid>https://atmoschem.github.io/rpackages/wrftools/</guid>
       <description>This package does 3 things
  help you to define domains extract data as points of spatial features and bricks returns st_bbox from wrf files  I’m not an expert in WRF but i need to use it. One of the very frustating and tricky part was to make a correct namelist.wps. Hours and hours trying to get the perfect domains. This functions solves this part while providing a dynamic maps for actually viewing where are your domains.</description>
+    </item>
+    
+    <item>
+      <title>3.5 fuel</title>
+      <link>https://atmoschem.github.io/courses/vein2021/01/015/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/01/015/</guid>
+      <description>Esta es la segunda hoja mas importante del archivo Excel y tiene el consumo de combustible anual para cada provincia. Las columnas que tiene son:
+ fuel: las letras de coombustible D para diesel y G gasolina. density_tm3: densitdad del combustible en t/m³. consumption_lt: Consumo de combustible en litros. UF: EC de ecuador. region: Nombre de las provincias. FUEL_M3: Consumo de combustible en m³. Year: Año. FUEL: Combustible, DIESEL o GASOLINE.</description>
     </item>
     
     <item>
@@ -142,6 +182,16 @@ The first release of VEIN was on October 19, 2016 under a brief period named of 
     </item>
     
     <item>
+      <title>3.6 fuel_month</title>
+      <link>https://atmoschem.github.io/courses/vein2021/01/016/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/01/016/</guid>
+      <description>Esta hoja es similar a fuel, pero aqui se agrega el mes.
+La idea de esta hoja es obtener los perfiles mensuales para los tipos de vehiculos basandose en el consumo de combustible mensual por provincia.</description>
+    </item>
+    
+    <item>
       <title>koffing</title>
       <link>https://atmoschem.github.io/rpackages/koffing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -165,6 +215,15 @@ library(koffing) koffing::scraper_cetesb( parameter = 99, station = 17, start = 
     </item>
     
     <item>
+      <title>3.7 euro</title>
+      <link>https://atmoschem.github.io/courses/vein2021/01/017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/01/017/</guid>
+      <description>Esta hoja tiene las normas de emision Euro para cada vehículo segun año de fabricación.</description>
+    </item>
+    
+    <item>
       <title>emep</title>
       <link>https://atmoschem.github.io/rpackages/emep/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -172,6 +231,18 @@ library(koffing) koffing::scraper_cetesb( parameter = 99, station = 17, start = 
       <guid>https://atmoschem.github.io/rpackages/emep/</guid>
       <description>EMEP EEA Emission factors data-base    Access to the EMEP EEA emission factors tier 2. https://www.eea.europa.eu/publications/emep-eea-guidebook-2019
 Installation    library(remotes) install_gitlab(&amp;#34;ibarraespinosa/emep&amp;#34;) Functions     ef find_ef  ef() find_ef(&amp;#34;electricity&amp;#34;) NFR Sector Table Type Technology Fuel Abatement Region Pollutant Value Unit 2 1.A.1.a Public electricity and heat production Table_3-20 Tier 2 emission factor Stationary reciprocating Engines - gas-fired Natural gas &amp;lt;NA&amp;gt; Cr 0.05 mg/GJ 11 1.A.1.a Public electricity and heat production Table_3-20 Tier 2 emission factor Stationary reciprocating Engines - gas-fired Natural gas &amp;lt;NA&amp;gt; TSP 2 g/GJ CI_lower CI_upper Reference 2 0.</description>
+    </item>
+    
+    <item>
+      <title>3.8 fuel_spec</title>
+      <link>https://atmoschem.github.io/courses/vein2021/01/018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/01/018/</guid>
+      <description>Esta hoja tiene la composición química de los combustibles. Aquí se aplica la metodologia de fuel correcion de la EEA. Consiste en que, los combustibles mas limpios, apropiados para las nuevas tecnologías, reducen las emisiones en los vehículos mas viejos.
+Para ver mas detalles, vea la guia de emisiones europea.
+Las columnas son:
+ fuel: G o D. parameter: e100 (Mid range volatility in %), aro (Aromatics in %), o2 (oxygenates in %), e150 (tail end volatility in %), S (azufre en ppm), den (densidad a 15 grados celsius kg/m³), pah (hidrocarburos aromáticos policíclicos %, cn (cetane number), t95 (back and distillation in celsius).</description>
     </item>
     
     <item>
@@ -185,6 +256,18 @@ Currently there are 7140 colour gradients. To se the names type cpt_names.
 There are three functions:
  find_cpt: To search the name of the colour gradient.  Example:
 library(cptcity) find_cpt(&amp;#34;radar&amp;#34;) ## [1] &amp;quot;idv_radar_dbz_nws&amp;quot; &amp;quot;idv_radar_dbz&amp;quot; &amp;quot;idv_radar_reflect_24&amp;quot; ## [4] &amp;quot;idv_radar_topo_mdr&amp;quot; &amp;quot;ncl_radar_1&amp;quot; &amp;quot;ncl_radar&amp;quot;  find_cpt(&amp;#34;rain&amp;#34;) ## [1] &amp;quot;colo_alpen_sky_rain_brolly&amp;quot; ## [2] &amp;quot;colo_lightningmccarl_taste_the_rainbow&amp;quot; ## [3] &amp;quot;ds9_rainbow&amp;quot; ## [4] &amp;quot;gist_rainbow&amp;quot; ## [5] &amp;quot;gmt_GMT_rainbow&amp;quot; ## [6] &amp;quot;grass_rainbow&amp;quot; ## [7] &amp;quot;grass_terrain&amp;quot; ## [8] &amp;quot;imagej_brain&amp;quot; ## [9] &amp;quot;jjg_ccolo_alpen_sky_rain_brolly&amp;quot; ## [10] &amp;quot;jjg_ccolo_lightningmccarl_taste_the_rainbow&amp;quot; ## [11] &amp;quot;jjg_misc_rainfall&amp;quot; ## [12] &amp;quot;jjg_neo10_elem_rain&amp;quot; ## [13] &amp;quot;jjg_neo10_othr_faint_rainbow&amp;quot; ## [14] &amp;quot;jjg_neo10_othr_pastel_rainbow&amp;quot; ## [15] &amp;quot;jjg_neo10_othr_rainbow_sunset&amp;quot; ## [16] &amp;quot;kst_13_rainbow&amp;quot; ## [17] &amp;quot;kst_34_rainbow&amp;quot; ## [18] &amp;quot;kst_38_rainbow18&amp;quot; ## [19] &amp;quot;kst_39_rainbow_white&amp;quot; ## [20] &amp;quot;kst_40_rainbow_black&amp;quot; ## [21] &amp;quot;ma_icecream_rainbowsherbet&amp;quot; ## [22] &amp;quot;neota_elem_rain&amp;quot; ## [23] &amp;quot;neota_othr_faint_rainbow&amp;quot; ## [24] &amp;quot;neota_othr_pastel_rainbow&amp;quot; ## [25] &amp;quot;neota_othr_rainbow_sunset&amp;quot; ## [26] &amp;quot;oc_rainbow&amp;quot; ## [27] &amp;quot;ocal_spectrum_rainbow_medium&amp;quot; ## [28] &amp;quot;ocal_spectrums_rainbow_002&amp;quot; ## [29] &amp;quot;ocal_spectrums_rainbow&amp;quot; ## [30] &amp;quot;pd_skies_rainbow&amp;quot; ## [31] &amp;quot;pj_1_a_rainbow&amp;quot; ## [32] &amp;quot;pj_1_black_rainbow&amp;quot; ## [33] &amp;quot;pj_2_palest_rainbow&amp;quot; ## [34] &amp;quot;pj_2_white_rainbow&amp;quot; ## [35] &amp;quot;pj_2_wisteria_rain&amp;quot; ## [36] &amp;quot;pj_4_deeprainbow&amp;quot; ## [37] &amp;quot;pj_5_anotherrainbow&amp;quot; ## [38] &amp;quot;pj_5_harryrainbow&amp;quot; ## [39] &amp;quot;pj_5_mysticrainbow&amp;quot; ## [40] &amp;quot;pj_5_rainbowrich&amp;quot; ## [41] &amp;quot;pj_classic_paler_rainbow&amp;quot; ## [42] &amp;quot;rc_rainbow&amp;quot; ## [43] &amp;quot;ukmo_main_rain_mmh&amp;quot; ## [44] &amp;quot;ukmo_wow_rain_mmh&amp;quot;  cpt: To return the colour gradient.</description>
+    </item>
+    
+    <item>
+      <title>1. Instalación</title>
+      <link>https://atmoschem.github.io/courses/vein2021/00/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/00/</guid>
+      <description>VEIN importa funciones de diferentes librerias:
+ sf data.table units graphics stats dotCall64 cptcity fields grDevices  Para intalar todo automaticamente, solo deberia hacer:
+install.packages(&amp;#34;vein&amp;#34;) Además, para correr los proyectos de VEIN, es necesario instalar librerias adicionales:
+ readxl ggplot2 eixport  install.packages(c(&amp;#34;readxl&amp;#34;, &amp;#34;ggplot2&amp;#34;, &amp;#34;eixport&amp;#34;)) Descripción de las dependencias    sf    VEIN importa funciones de las libreria sf, por lo que sus dependencias tienen que estar instaladas en el sistema.</description>
     </item>
     
     <item>
@@ -211,51 +294,75 @@ Aqui os videos:
     </item>
     
     <item>
-      <title>Instalación</title>
-      <link>https://atmoschem.github.io/courses/vein2021/00/</link>
+      <title>2. Proyectos</title>
+      <link>https://atmoschem.github.io/courses/vein2021/015/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://atmoschem.github.io/courses/vein2021/00/</guid>
-      <description>VEIN importa funciones de diferentes librerias:
- sf data.table units graphics stats dotCall64 cptcity fields grDevices  Para intalar todo automaticamente, solo deberia hacer:
-install.packages(&amp;#34;vein&amp;#34;) Además, para correr los proyectos de VEIN, es necesario instalar librerias adicionales:
- readxl ggplot2 eixport  install.packages(c(&amp;#34;readxl&amp;#34;, &amp;#34;ggplot2&amp;#34;, &amp;#34;eixport&amp;#34;)) Descripción de las dependencias    sf    VEIN importa funciones de las libreria sf, por lo que sus dependencias tienen que estar instaladas en el sistema.</description>
+      <guid>https://atmoschem.github.io/courses/vein2021/015/</guid>
+      <description>Luego de que VEIN esta instalado, es necesario bajar un proyecto de VEIN. Estos proyectos son diseñados para que personas sin conocimiento en R consigan estimar emisiones vehicular e inclusive, generar datos para correr modelos de calidad del aire. Estos proyectos son bajados usando VEIN. El proyecto que vamos a correr corresponde a una estimacion para una provincia de Ecuador.
+Es importante mencionar que el hecho que los proyectos son diseñados para ser fáciles, no implica que el usuario va a tener que hacer modificaciones.</description>
     </item>
     
     <item>
-      <title>Configuración</title>
-      <link>https://atmoschem.github.io/courses/vein2021/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://atmoschem.github.io/courses/vein2021/01/</guid>
-      <description>Level 1.1.1.1.</description>
-    </item>
-    
-    <item>
-      <title>Datos espaciales</title>
+      <title>4. Datos espaciales</title>
       <link>https://atmoschem.github.io/courses/vein2021/02/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://atmoschem.github.io/courses/vein2021/02/</guid>
-      <description>Level 1.2</description>
+      <description>Los datos espaciales, en este caso son simplemente un geopackage con las provincias. No son usados en el script fuera de aqui:
+# 1) Network #### net &amp;lt;- st_read(&amp;#34;network/ecuador_provincias.gpkg&amp;#34;) crs &amp;lt;- 4326 source(&amp;#34;scripts/net.R&amp;#34;, encoding = &amp;#34;UTF-8&amp;#34;) Este script plota los datos.</description>
     </item>
     
     <item>
-      <title>Plots</title>
+      <title>5. Actividad vehicular</title>
+      <link>https://atmoschem.github.io/courses/vein2021/025/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/025/</guid>
+      <description>Aqui los datos de actividad vehicular son generados, por tipo de vehiculo. Los datos de flota son leidos, se descuentan los convertidos en chatarra y luego, se genera archivos .rds para cada tipo de vehiculos. Los archivos tienen el nombre definido en la columna vehicles de metadata.
+El script traffic.R hace los procesamiento, plots, y guarda los dados en formato .rds.
+# 2) Traffic #### language &amp;lt;- &amp;#34;spanish&amp;#34; # english spanish portuguese net &amp;lt;- readRDS(&amp;#34;network/net.</description>
+    </item>
+    
+    <item>
+      <title>6. Calibración de la actividad vehicular</title>
+      <link>https://atmoschem.github.io/courses/vein2021/026/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/026/</guid>
+      <description>Luego que la actividad vehicular inicial es calculada, el script fuel_eval_eea.R, que recalcula la actividad vehicular para hacer un match con las ventas de combustible. O sea, la estimación de las emisiones de consumo de combustible resulta igual que las ventas de combustible de la región de estudio.
+El bloque de código es:
+# 3) Estimation #### language &amp;lt;- &amp;#34;spanish&amp;#34; # english spanish portuguese metadata &amp;lt;- readRDS(&amp;#34;config/metadata.rds&amp;#34;) mileage &amp;lt;- readRDS(&amp;#34;config/mileage.rds&amp;#34;) veh &amp;lt;- readRDS(&amp;#34;config/fleet_age.</description>
+    </item>
+    
+    <item>
+      <title>7. Factores de emisión</title>
+      <link>https://atmoschem.github.io/courses/vein2021/03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/03/</guid>
+      <description>   Los factores de emisión considerados son los mencionados en las sub-páginas.
+Los factores incluyen:
+ Tubo de escape caliente. Partidas en Frio. Evaporativas. Corrección por composición química del combustible. Deterioración. Desgaste de neumáticos, frenos y caminos.  </description>
+    </item>
+    
+    <item>
+      <title>9. Plots</title>
       <link>https://atmoschem.github.io/courses/vein2021/05/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://atmoschem.github.io/courses/vein2021/05/</guid>
-      <description>Level 1.2</description>
+      <description>Al final del script main.R está la sección de plots:
+# plots language &amp;lt;- &amp;#34;spanish&amp;#34; # english spanish portuguese provincia &amp;lt;- unique(fuel$region)[1] # provincia &amp;lt;- unique(fuel$region)[as.numeric(basename(getwd()))] metadata &amp;lt;- readRDS(&amp;#34;config/metadata.rds&amp;#34;) veh &amp;lt;- readRDS(&amp;#34;config/fleet_age.rds&amp;#34;) year &amp;lt;- 2019 source(&amp;#34;scripts/plots.R&amp;#34;, encoding = &amp;#34;UTF-8&amp;#34;) </description>
     </item>
     
     <item>
-      <title>Fotos</title>
+      <title>10. Fotos</title>
       <link>https://atmoschem.github.io/courses/vein2021/06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://atmoschem.github.io/courses/vein2021/06/</guid>
-      <description>Level 1.2</description>
+      <description>Algunas fotos.</description>
     </item>
     
     <item>

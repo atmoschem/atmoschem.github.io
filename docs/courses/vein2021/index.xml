@@ -6,7 +6,7 @@
     <description>Recent content in VEIN 2021 CASAP on atmoschem</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://atmoschem.github.io/courses/vein2021/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Instalación</title>
+      <title>1. Instalación</title>
       <link>https://atmoschem.github.io/courses/vein2021/00/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -18,39 +18,75 @@ install.packages(&amp;#34;vein&amp;#34;) Además, para correr los proyectos de V
     </item>
     
     <item>
-      <title>Configuración</title>
-      <link>https://atmoschem.github.io/courses/vein2021/01/</link>
+      <title>2. Proyectos</title>
+      <link>https://atmoschem.github.io/courses/vein2021/015/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://atmoschem.github.io/courses/vein2021/01/</guid>
-      <description>Level 1.1.1.1.</description>
+      <guid>https://atmoschem.github.io/courses/vein2021/015/</guid>
+      <description>Luego de que VEIN esta instalado, es necesario bajar un proyecto de VEIN. Estos proyectos son diseñados para que personas sin conocimiento en R consigan estimar emisiones vehicular e inclusive, generar datos para correr modelos de calidad del aire. Estos proyectos son bajados usando VEIN. El proyecto que vamos a correr corresponde a una estimacion para una provincia de Ecuador.
+Es importante mencionar que el hecho que los proyectos son diseñados para ser fáciles, no implica que el usuario va a tener que hacer modificaciones.</description>
     </item>
     
     <item>
-      <title>Datos espaciales</title>
+      <title>4. Datos espaciales</title>
       <link>https://atmoschem.github.io/courses/vein2021/02/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://atmoschem.github.io/courses/vein2021/02/</guid>
-      <description>Level 1.2</description>
+      <description>Los datos espaciales, en este caso son simplemente un geopackage con las provincias. No son usados en el script fuera de aqui:
+# 1) Network #### net &amp;lt;- st_read(&amp;#34;network/ecuador_provincias.gpkg&amp;#34;) crs &amp;lt;- 4326 source(&amp;#34;scripts/net.R&amp;#34;, encoding = &amp;#34;UTF-8&amp;#34;) Este script plota los datos.</description>
     </item>
     
     <item>
-      <title>Plots</title>
+      <title>5. Actividad vehicular</title>
+      <link>https://atmoschem.github.io/courses/vein2021/025/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/025/</guid>
+      <description>Aqui los datos de actividad vehicular son generados, por tipo de vehiculo. Los datos de flota son leidos, se descuentan los convertidos en chatarra y luego, se genera archivos .rds para cada tipo de vehiculos. Los archivos tienen el nombre definido en la columna vehicles de metadata.
+El script traffic.R hace los procesamiento, plots, y guarda los dados en formato .rds.
+# 2) Traffic #### language &amp;lt;- &amp;#34;spanish&amp;#34; # english spanish portuguese net &amp;lt;- readRDS(&amp;#34;network/net.</description>
+    </item>
+    
+    <item>
+      <title>6. Calibración de la actividad vehicular</title>
+      <link>https://atmoschem.github.io/courses/vein2021/026/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/026/</guid>
+      <description>Luego que la actividad vehicular inicial es calculada, el script fuel_eval_eea.R, que recalcula la actividad vehicular para hacer un match con las ventas de combustible. O sea, la estimación de las emisiones de consumo de combustible resulta igual que las ventas de combustible de la región de estudio.
+El bloque de código es:
+# 3) Estimation #### language &amp;lt;- &amp;#34;spanish&amp;#34; # english spanish portuguese metadata &amp;lt;- readRDS(&amp;#34;config/metadata.rds&amp;#34;) mileage &amp;lt;- readRDS(&amp;#34;config/mileage.rds&amp;#34;) veh &amp;lt;- readRDS(&amp;#34;config/fleet_age.</description>
+    </item>
+    
+    <item>
+      <title>7. Factores de emisión</title>
+      <link>https://atmoschem.github.io/courses/vein2021/03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/03/</guid>
+      <description>   Los factores de emisión considerados son los mencionados en las sub-páginas.
+Los factores incluyen:
+ Tubo de escape caliente. Partidas en Frio. Evaporativas. Corrección por composición química del combustible. Deterioración. Desgaste de neumáticos, frenos y caminos.  </description>
+    </item>
+    
+    <item>
+      <title>9. Plots</title>
       <link>https://atmoschem.github.io/courses/vein2021/05/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://atmoschem.github.io/courses/vein2021/05/</guid>
-      <description>Level 1.2</description>
+      <description>Al final del script main.R está la sección de plots:
+# plots language &amp;lt;- &amp;#34;spanish&amp;#34; # english spanish portuguese provincia &amp;lt;- unique(fuel$region)[1] # provincia &amp;lt;- unique(fuel$region)[as.numeric(basename(getwd()))] metadata &amp;lt;- readRDS(&amp;#34;config/metadata.rds&amp;#34;) veh &amp;lt;- readRDS(&amp;#34;config/fleet_age.rds&amp;#34;) year &amp;lt;- 2019 source(&amp;#34;scripts/plots.R&amp;#34;, encoding = &amp;#34;UTF-8&amp;#34;) </description>
     </item>
     
     <item>
-      <title>Fotos</title>
+      <title>10. Fotos</title>
       <link>https://atmoschem.github.io/courses/vein2021/06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://atmoschem.github.io/courses/vein2021/06/</guid>
-      <description>Level 1.2</description>
+      <description>Algunas fotos.</description>
     </item>
     
   </channel>

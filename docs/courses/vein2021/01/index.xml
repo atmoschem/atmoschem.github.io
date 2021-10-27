@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3. Configuración on atmoschem</title>
+    <link>https://atmoschem.github.io/courses/vein2021/01/</link>
+    <description>Recent content in 3. Configuración on atmoschem</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://atmoschem.github.io/courses/vein2021/01/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3.1 metadata</title>
+      <link>https://atmoschem.github.io/courses/vein2021/01/011/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/01/011/</guid>
+      <description>La metadata consiste en en la configuración inicial del inventario. Cuando se baja el proyecto, hay una carpeta llamada config y dentro de ella existe un archivo llamado inventory_ecuador.xlsx. En general, este archivo es llamado inventory.xlx en otros proyectos.
+Dentro de este archivo excel, existe una hoja llamada metadata que tiene el contenido principal. Las columnas que encontraras son:
+ family: Tiene los tipos basicos de vehículos, PC (Passenger Cars), LCV (Light Commercial Vehicles), TRUCKS, BUS y MC (Motorcycles).</description>
+    </item>
+    
+    <item>
+      <title>3.2 fleet_age</title>
+      <link>https://atmoschem.github.io/courses/vein2021/01/012/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/01/012/</guid>
+      <description>Consiste en la hoja llamada age_fleet que tiene los vehiculos registrados por tipo de vehiculo. La primera coluna es Year para el año y las siguientes columnas son las categorias vehiculares de la columna vehicles de metadata.
+En este caso hay vehiclos entre 2019 y 1959 registrados. Recuerda que en bloque de configuración de main.R se determina a que edad los vehículos salen de circulación, en este caso, age_max es 40.</description>
+    </item>
+    
+    <item>
+      <title>3.3 tfs</title>
+      <link>https://atmoschem.github.io/courses/vein2021/01/013/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/01/013/</guid>
+      <description>TFS son los temporal factors, como mostrados en el paper de VEIN.
+Esta vez no seran usados, pues estamos estimando las emisiones a nivel de provincia, top-down.</description>
+    </item>
+    
+    <item>
+      <title>3.4 mileage</title>
+      <link>https://atmoschem.github.io/courses/vein2021/01/014/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/01/014/</guid>
+      <description>Son los quilometros que recorre cada vehículo por año de uso. En este caso los valores fueron obtenidos de mediciones de mas de un millón y médio de odometros de Brazil. Para saber mas detalles:
+library(vein) data(fkm) ?fkm </description>
+    </item>
+    
+    <item>
+      <title>3.5 fuel</title>
+      <link>https://atmoschem.github.io/courses/vein2021/01/015/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/01/015/</guid>
+      <description>Esta es la segunda hoja mas importante del archivo Excel y tiene el consumo de combustible anual para cada provincia. Las columnas que tiene son:
+ fuel: las letras de coombustible D para diesel y G gasolina. density_tm3: densitdad del combustible en t/m³. consumption_lt: Consumo de combustible en litros. UF: EC de ecuador. region: Nombre de las provincias. FUEL_M3: Consumo de combustible en m³. Year: Año. FUEL: Combustible, DIESEL o GASOLINE.</description>
+    </item>
+    
+    <item>
+      <title>3.6 fuel_month</title>
+      <link>https://atmoschem.github.io/courses/vein2021/01/016/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/01/016/</guid>
+      <description>Esta hoja es similar a fuel, pero aqui se agrega el mes.
+La idea de esta hoja es obtener los perfiles mensuales para los tipos de vehiculos basandose en el consumo de combustible mensual por provincia.</description>
+    </item>
+    
+    <item>
+      <title>3.7 euro</title>
+      <link>https://atmoschem.github.io/courses/vein2021/01/017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/01/017/</guid>
+      <description>Esta hoja tiene las normas de emision Euro para cada vehículo segun año de fabricación.</description>
+    </item>
+    
+    <item>
+      <title>3.8 fuel_spec</title>
+      <link>https://atmoschem.github.io/courses/vein2021/01/018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/01/018/</guid>
+      <description>Esta hoja tiene la composición química de los combustibles. Aquí se aplica la metodologia de fuel correcion de la EEA. Consiste en que, los combustibles mas limpios, apropiados para las nuevas tecnologías, reducen las emisiones en los vehículos mas viejos.
+Para ver mas detalles, vea la guia de emisiones europea.
+Las columnas son:
+ fuel: G o D. parameter: e100 (Mid range volatility in %), aro (Aromatics in %), o2 (oxygenates in %), e150 (tail end volatility in %), S (azufre en ppm), den (densidad a 15 grados celsius kg/m³), pah (hidrocarburos aromáticos policíclicos %, cn (cetane number), t95 (back and distillation in celsius).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,43 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://atmoschem.github.io/courses/vein2021/03/031/</loc>
-    <lastmod>2021-10-25T23:16:32-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/courses/vein2021/03/032/</loc>
-    <lastmod>2021-10-25T23:16:32-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/courses/vein2021/03/033/</loc>
-    <lastmod>2021-10-25T23:16:32-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/courses/vein2021/03/034/</loc>
-    <lastmod>2021-10-25T23:16:32-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://atmoschem.github.io/courses/vein2021/03/035/</loc>
-    <lastmod>2021-10-25T23:16:32-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://atmoschem.github.io/courses/vein2021/04/041/</loc>
-    <lastmod>2021-10-25T23:16:32-03:00</lastmod>
+    <lastmod>2021-10-27T00:10:53-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://atmoschem.github.io/courses/vein2021/04/042/</loc>
-    <lastmod>2021-10-25T23:16:32-03:00</lastmod>
+    <lastmod>2021-10-27T00:10:53-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://atmoschem.github.io/courses/vein2021/04/043/</loc>
-    <lastmod>2021-10-25T23:16:32-03:00</lastmod>
+    <lastmod>2021-10-27T00:10:53-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atmoschem.github.io/courses/vein2021/04/044/</loc>
+    <lastmod>2021-10-27T00:10:53-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atmoschem.github.io/courses/vein2021/04/045/</loc>
+    <lastmod>2021-10-27T00:10:53-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atmoschem.github.io/courses/vein2021/04/046/</loc>
+    <lastmod>2021-10-27T00:10:53-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atmoschem.github.io/courses/vein2021/01/011/</loc>
+    <lastmod>2021-10-26T17:30:52-03:00</lastmod>
   </url>
   
   <url>
@@ -48,13 +43,28 @@
   </url>
   
   <url>
+    <loc>https://atmoschem.github.io/courses/vein2021/01/012/</loc>
+    <lastmod>2021-10-26T17:30:52-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://atmoschem.github.io/rpackages/vein/</loc>
     <lastmod>2021-05-07T08:50:48-03:00</lastmod>
   </url>
   
   <url>
+    <loc>https://atmoschem.github.io/courses/vein2021/01/013/</loc>
+    <lastmod>2021-10-26T17:30:52-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://atmoschem.github.io/rpackages/eixport/</loc>
     <lastmod>2021-05-07T08:50:48-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atmoschem.github.io/courses/vein2021/01/014/</loc>
+    <lastmod>2021-10-26T17:30:52-03:00</lastmod>
   </url>
   
   <url>
@@ -68,6 +78,11 @@
   </url>
   
   <url>
+    <loc>https://atmoschem.github.io/courses/vein2021/01/015/</loc>
+    <lastmod>2021-10-26T17:30:52-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://atmoschem.github.io/rpackages/respeciate/</loc>
     <lastmod>2021-05-07T08:50:48-03:00</lastmod>
   </url>
@@ -75,6 +90,11 @@
   <url>
     <loc>https://atmoschem.github.io/workshops/vein5/</loc>
     <lastmod>2021-10-25T23:16:32-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atmoschem.github.io/courses/vein2021/01/016/</loc>
+    <lastmod>2021-10-26T17:30:52-03:00</lastmod>
   </url>
   
   <url>
@@ -93,13 +113,28 @@
   </url>
   
   <url>
+    <loc>https://atmoschem.github.io/courses/vein2021/01/017/</loc>
+    <lastmod>2021-10-26T17:30:52-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://atmoschem.github.io/rpackages/emep/</loc>
     <lastmod>2021-05-07T08:50:48-03:00</lastmod>
   </url>
   
   <url>
+    <loc>https://atmoschem.github.io/courses/vein2021/01/018/</loc>
+    <lastmod>2021-10-26T17:30:52-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://atmoschem.github.io/rpackages/cpt/</loc>
     <lastmod>2021-05-07T08:50:48-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atmoschem.github.io/courses/vein2021/00/</loc>
+    <lastmod>2021-10-26T17:30:52-03:00</lastmod>
   </url>
   
   <url>
@@ -113,48 +148,58 @@
   </url>
   
   <url>
+    <loc>https://atmoschem.github.io/courses/vein2021/015/</loc>
+    <lastmod>2021-10-26T17:30:52-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://atmoschem.github.io/courses/</loc>
     <lastmod>2021-10-25T23:16:32-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://atmoschem.github.io/courses/vein2021/00/</loc>
-    <lastmod>2021-10-25T23:16:32-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://atmoschem.github.io/courses/vein2021/</loc>
-    <lastmod>2021-10-25T23:16:32-03:00</lastmod>
+    <lastmod>2021-10-27T00:12:23-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://atmoschem.github.io/courses/vein2021/01/</loc>
-    <lastmod>2021-10-25T23:16:32-03:00</lastmod>
+    <lastmod>2021-10-26T18:39:14-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://atmoschem.github.io/courses/vein2021/02/</loc>
-    <lastmod>2021-10-25T23:16:32-03:00</lastmod>
+    <lastmod>2021-10-26T18:39:14-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atmoschem.github.io/courses/vein2021/025/</loc>
+    <lastmod>2021-10-26T18:39:14-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://atmoschem.github.io/courses/vein2021/026/</loc>
+    <lastmod>2021-10-27T00:10:53-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://atmoschem.github.io/courses/vein2021/03/</loc>
-    <lastmod>2021-10-25T23:16:32-03:00</lastmod>
+    <lastmod>2021-10-27T00:10:53-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://atmoschem.github.io/courses/vein2021/04/</loc>
-    <lastmod>2021-10-25T23:16:32-03:00</lastmod>
+    <lastmod>2021-10-27T00:10:53-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://atmoschem.github.io/courses/vein2021/05/</loc>
-    <lastmod>2021-10-25T23:16:32-03:00</lastmod>
+    <lastmod>2021-10-27T00:13:36-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://atmoschem.github.io/courses/vein2021/06/</loc>
-    <lastmod>2021-10-25T23:16:32-03:00</lastmod>
+    <lastmod>2021-10-27T00:10:53-03:00</lastmod>
   </url>
   
   <url>

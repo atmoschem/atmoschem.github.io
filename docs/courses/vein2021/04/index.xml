@@ -1,35 +1,69 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Emisiones on atmoschem</title>
+    <title>8. Emisiones on atmoschem</title>
     <link>https://atmoschem.github.io/courses/vein2021/04/</link>
-    <description>Recent content in Emisiones on atmoschem</description>
+    <description>Recent content in 8. Emisiones on atmoschem</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://atmoschem.github.io/courses/vein2021/04/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tubo de escape caliente</title>
+      <title>8.1 Tubo de escape caliente</title>
       <link>https://atmoschem.github.io/courses/vein2021/04/041/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://atmoschem.github.io/courses/vein2021/04/041/</guid>
-      <description>Level 1.2</description>
+      <description>Los factores de emisión son estimados en el script hot_exhaust_eea.R llamado desde main.R:
+# Exhaust #### language &amp;lt;- &amp;#34;spanish&amp;#34; # english spanish portuguese provincia &amp;lt;- unique(fuel$region)[as.numeric(basename(getwd()))] metadata &amp;lt;- readRDS(&amp;#34;config/metadata.rds&amp;#34;) mileage &amp;lt;- readRDS(&amp;#34;config/mileage.rds&amp;#34;) veh &amp;lt;- readRDS(&amp;#34;config/fleet_age.rds&amp;#34;) net &amp;lt;- readRDS(&amp;#34;network/net.rds&amp;#34;) pmonth &amp;lt;- readRDS(&amp;#34;config/pmonth.rds&amp;#34;) met &amp;lt;- readRDS(&amp;#34;config/met.rds&amp;#34;) euro &amp;lt;- readRDS(&amp;#34;config/euro.rds&amp;#34;) tech &amp;lt;- readRDS(&amp;#34;config/tech.rds&amp;#34;) fuel_spec &amp;lt;- readRDS(&amp;#34;config/fuel_spec.rds&amp;#34;) verbose &amp;lt;- FALSE year &amp;lt;- 2019 nt &amp;lt;- 10 # check_nt() / 2 pol &amp;lt;- c( &amp;#34;CO&amp;#34;, &amp;#34;HC&amp;#34;, &amp;#34;NMHC&amp;#34;, &amp;#34;NOx&amp;#34;, &amp;#34;CO2&amp;#34;, &amp;#34;PM&amp;#34;, &amp;#34;NO2&amp;#34;, &amp;#34;NO&amp;#34; ) source(&amp;#34;scripts/hot_exhaust_eea.</description>
     </item>
     
     <item>
-      <title>Partidas en Frío</title>
+      <title>8.2 Partidas en Frío</title>
       <link>https://atmoschem.github.io/courses/vein2021/04/042/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://atmoschem.github.io/courses/vein2021/04/042/</guid>
-      <description>Level 1.2</description>
+      <description>Los factores de emisión son estimados en el script cold_start_eea.R y llamados en main.R:
+# Exhaust #### language &amp;lt;- &amp;#34;spanish&amp;#34; # english spanish portuguese provincia &amp;lt;- unique(fuel$region)[as.numeric(basename(getwd()))] metadata &amp;lt;- readRDS(&amp;#34;config/metadata.rds&amp;#34;) mileage &amp;lt;- readRDS(&amp;#34;config/mileage.rds&amp;#34;) veh &amp;lt;- readRDS(&amp;#34;config/fleet_age.rds&amp;#34;) net &amp;lt;- readRDS(&amp;#34;network/net.rds&amp;#34;) pmonth &amp;lt;- readRDS(&amp;#34;config/pmonth.rds&amp;#34;) met &amp;lt;- readRDS(&amp;#34;config/met.rds&amp;#34;) euro &amp;lt;- readRDS(&amp;#34;config/euro.rds&amp;#34;) tech &amp;lt;- readRDS(&amp;#34;config/tech.rds&amp;#34;) fuel_spec &amp;lt;- readRDS(&amp;#34;config/fuel_spec.rds&amp;#34;) verbose &amp;lt;- FALSE year &amp;lt;- 2019 nt &amp;lt;- 10 # check_nt() / 2 pol &amp;lt;- c( &amp;#34;CO&amp;#34;, &amp;#34;NOx&amp;#34;, &amp;#34;NMHC&amp;#34;, &amp;#34;HC&amp;#34;, &amp;#34;NO2&amp;#34;, &amp;#34;NO&amp;#34; ) source(&amp;#34;scripts/cold_start_eea.</description>
     </item>
     
     <item>
-      <title>Evaporativas</title>
+      <title>8.3 Evaporativas</title>
       <link>https://atmoschem.github.io/courses/vein2021/04/043/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://atmoschem.github.io/courses/vein2021/04/043/</guid>
-      <description>Level 1.2</description>
+      <description>Los factores dependen de la temperatura media y del largo de viaje disponible en metadata, como largo del ciclo de conducción. Representa el largo medio del viaje.
+Los factores incluyen &amp;ldquo;diurnal&amp;rdquo;,&amp;ldquo;hot-soak&amp;rdquo; y &amp;ldquo;running losses&amp;rdquo;.
+La estimativa es llamada en main.R:
+# Evaporatives #### language &amp;lt;- &amp;#34;spanish&amp;#34; # english spanish portuguese provincia &amp;lt;- unique(fuel$region)[1] # provincia &amp;lt;- unique(fuel$region)[as.numeric(basename(getwd()))] metadata &amp;lt;- readRDS(&amp;#34;config/metadata.rds&amp;#34;) mileage &amp;lt;- readRDS(&amp;#34;config/mileage.rds&amp;#34;) veh &amp;lt;- readRDS(&amp;#34;config/fleet_age.rds&amp;#34;) net &amp;lt;- readRDS(&amp;#34;network/net.rds&amp;#34;) pmonth &amp;lt;- readRDS(&amp;#34;config/pmonth.</description>
+    </item>
+    
+    <item>
+      <title>8.4 Deterioración</title>
+      <link>https://atmoschem.github.io/courses/vein2021/04/044/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/04/044/</guid>
+      <description>El deterioro afecta a vehículos ciclo otto con tecnología superior a PRE-Euro, y significa en mas emisiones de CO, NOx e HC.
+El script hot_exhaust_eea.R incorpora estos factores</description>
+    </item>
+    
+    <item>
+      <title>8.5 Corrección combustibles</title>
+      <link>https://atmoschem.github.io/courses/vein2021/04/045/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/04/045/</guid>
+      <description>La correción por composición química del combustible consiste en que combustibles aptos para las nuevas tecnologías mas limpias generan disminuyen las emisiones de tecnologías mas antiguas, solo porque el combustible es mas limpio.</description>
+    </item>
+    
+    <item>
+      <title>8.6 Emisiones por desgaste</title>
+      <link>https://atmoschem.github.io/courses/vein2021/04/046/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://atmoschem.github.io/courses/vein2021/04/046/</guid>
+      <description>El desgaste de frenos, neumáticos y caminos genera emisiones de material particulado. La sección del script que estima estas emisiones en main.R es:
+# Wear #### language &amp;lt;- &amp;#34;spanish&amp;#34; # english spanish portuguese provincia &amp;lt;- unique(fuel$region)[1] # provincia &amp;lt;- unique(fuel$region)[as.numeric(basename(getwd()))] metadata &amp;lt;- readRDS(&amp;#34;config/metadata.rds&amp;#34;) mileage &amp;lt;- readRDS(&amp;#34;config/mileage.rds&amp;#34;) veh &amp;lt;- readRDS(&amp;#34;config/fleet_age.rds&amp;#34;) net &amp;lt;- readRDS(&amp;#34;network/net.rds&amp;#34;) pmonth &amp;lt;- readRDS(&amp;#34;config/pmonth.rds&amp;#34;) met &amp;lt;- readRDS(&amp;#34;config/met.rds&amp;#34;) euro &amp;lt;- readRDS(&amp;#34;config/euro.rds&amp;#34;) tech &amp;lt;- readRDS(&amp;#34;config/tech.rds&amp;#34;) fuel_spec &amp;lt;- readRDS(&amp;#34;config/fuel_spec.rds&amp;#34;) verbose &amp;lt;- FALSE year &amp;lt;- 2019 nt &amp;lt;- 10 # check_nt() / 2 source(&amp;#34;scripts/wear_eea.</description>
     </item>
     
   </channel>

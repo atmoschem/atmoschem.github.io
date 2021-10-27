@@ -10,11 +10,14 @@
 
 
 
-    <meta name="description" content="Level 1.2">
+    <meta name="description" content="Los factores dependen de la temperatura media y del largo de viaje disponible en metadata, como largo del ciclo de conducción. Representa el largo medio del viaje.
+Los factores incluyen &ldquo;diurnal&rdquo;,&ldquo;hot-soak&rdquo; y &ldquo;running losses&rdquo;.
+La estimativa es llamada en main.R:
+# Evaporatives #### language &lt;- &#34;spanish&#34; # english spanish portuguese provincia &lt;- unique(fuel$region)[1] # provincia &lt;- unique(fuel$region)[as.numeric(basename(getwd()))] metadata &lt;- readRDS(&#34;config/metadata.rds&#34;) mileage &lt;- readRDS(&#34;config/mileage.rds&#34;) veh &lt;- readRDS(&#34;config/fleet_age.rds&#34;) net &lt;- readRDS(&#34;network/net.rds&#34;) pmonth &lt;- readRDS(&#34;config/pmonth.">
 
 
 
-    <title>Evaporativas | atmoschem</title>
+    <title>8.3 Evaporativas | atmoschem</title>
 
     <link rel="icon" href="/favicon/favicon-32x32.png" type="image/x-icon">
 
@@ -1032,7 +1035,7 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             
                 <span class="flex">
                     <a href="/courses/vein2021/00/" class="gdoc-nav__entry ">
-                        Instalación
+                        1. Instalación
                     </a>
                 </span>
             
@@ -1054,66 +1057,40 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             
 
             <li>
+            
+            
+                <span class="flex">
+                    <a href="/courses/vein2021/015/" class="gdoc-nav__entry ">
+                        2. Proyectos
+                    </a>
+                </span>
+            
+            
+
+            
+            </li>
+            
+            
+        
+            
+            
+
+            
+            
+            
+            
+            
+            
+
+            <li>
+            
+            <input type="checkbox" id="navtree-dd77f4f3" class="gdoc-nav__toggle" >
+            <label for="navtree-dd77f4f3" class="flex justify-between">
             
             
                 <span class="flex">
                     <a href="/courses/vein2021/01/" class="gdoc-nav__entry ">
-                        Configuración
-                    </a>
-                </span>
-            
-            
-
-            
-            </li>
-            
-            
-        
-            
-            
-
-            
-            
-            
-            
-            
-            
-
-            <li>
-            
-            
-                <span class="flex">
-                    <a href="/courses/vein2021/02/" class="gdoc-nav__entry ">
-                        Datos espaciales
-                    </a>
-                </span>
-            
-            
-
-            
-            </li>
-            
-            
-        
-            
-            
-
-            
-            
-            
-            
-            
-            
-
-            <li>
-            
-            <input type="checkbox" id="navtree-0704a2ed" class="gdoc-nav__toggle" >
-            <label for="navtree-0704a2ed" class="flex justify-between">
-            
-            
-                <span class="flex">
-                    <a href="/courses/vein2021/03/" class="gdoc-nav__entry ">
-                        Factores de emisión
+                        3. Configuración
                     </a>
                 </span>
             
@@ -1143,8 +1120,8 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             
             
                 <span class="flex">
-                    <a href="/courses/vein2021/03/031/" class="gdoc-nav__entry ">
-                        Tubo de escape caliente
+                    <a href="/courses/vein2021/01/011/" class="gdoc-nav__entry ">
+                        3.1 metadata
                     </a>
                 </span>
             
@@ -1169,8 +1146,8 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             
             
                 <span class="flex">
-                    <a href="/courses/vein2021/03/032/" class="gdoc-nav__entry ">
-                        Partidas en Frío
+                    <a href="/courses/vein2021/01/012/" class="gdoc-nav__entry ">
+                        3.2 fleet_age
                     </a>
                 </span>
             
@@ -1195,8 +1172,8 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             
             
                 <span class="flex">
-                    <a href="/courses/vein2021/03/033/" class="gdoc-nav__entry ">
-                        Evaporativas
+                    <a href="/courses/vein2021/01/013/" class="gdoc-nav__entry ">
+                        3.3 tfs
                     </a>
                 </span>
             
@@ -1221,8 +1198,8 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             
             
                 <span class="flex">
-                    <a href="/courses/vein2021/03/034/" class="gdoc-nav__entry ">
-                        Deterioración
+                    <a href="/courses/vein2021/01/014/" class="gdoc-nav__entry ">
+                        3.4 mileage
                     </a>
                 </span>
             
@@ -1247,8 +1224,86 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             
             
                 <span class="flex">
-                    <a href="/courses/vein2021/03/035/" class="gdoc-nav__entry ">
-                        Corrección combustibles
+                    <a href="/courses/vein2021/01/015/" class="gdoc-nav__entry ">
+                        3.5 fuel
+                    </a>
+                </span>
+            
+            
+
+            
+            </li>
+            
+            
+        
+            
+            
+
+            
+            
+            
+            
+            
+            
+
+            <li>
+            
+            
+                <span class="flex">
+                    <a href="/courses/vein2021/01/016/" class="gdoc-nav__entry ">
+                        3.6 fuel_month
+                    </a>
+                </span>
+            
+            
+
+            
+            </li>
+            
+            
+        
+            
+            
+
+            
+            
+            
+            
+            
+            
+
+            <li>
+            
+            
+                <span class="flex">
+                    <a href="/courses/vein2021/01/017/" class="gdoc-nav__entry ">
+                        3.7 euro
+                    </a>
+                </span>
+            
+            
+
+            
+            </li>
+            
+            
+        
+            
+            
+
+            
+            
+            
+            
+            
+            
+
+            <li>
+            
+            
+                <span class="flex">
+                    <a href="/courses/vein2021/01/018/" class="gdoc-nav__entry ">
+                        3.8 fuel_spec
                     </a>
                 </span>
             
@@ -1278,13 +1333,113 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
 
             <li>
             
+            
+                <span class="flex">
+                    <a href="/courses/vein2021/02/" class="gdoc-nav__entry ">
+                        4. Datos espaciales
+                    </a>
+                </span>
+            
+            
+
+            
+            </li>
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+
+            <li>
+            
+            
+                <span class="flex">
+                    <a href="/courses/vein2021/025/" class="gdoc-nav__entry ">
+                        5. Actividad vehicular
+                    </a>
+                </span>
+            
+            
+
+            
+            </li>
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+
+            <li>
+            
+            
+                <span class="flex">
+                    <a href="/courses/vein2021/026/" class="gdoc-nav__entry ">
+                        6. Calibración de la actividad vehicular
+                    </a>
+                </span>
+            
+            
+
+            
+            </li>
+            
+            
+        
+            
+            
+
+            
+            
+            
+            
+            
+            
+
+            <li>
+            
+            
+                <span class="flex">
+                    <a href="/courses/vein2021/03/" class="gdoc-nav__entry ">
+                        7. Factores de emisión
+                    </a>
+                </span>
+            
+            
+
+            
+            </li>
+            
+            
+        
+            
+            
+
+            
+            
+            
+            
+            
+            
+
+            <li>
+            
             <input type="checkbox" id="navtree-952f0349" class="gdoc-nav__toggle" checked>
             <label for="navtree-952f0349" class="flex justify-between">
             
             
                 <span class="flex">
                     <a href="/courses/vein2021/04/" class="gdoc-nav__entry ">
-                        Emisiones
+                        8. Emisiones
                     </a>
                 </span>
             
@@ -1315,7 +1470,7 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             
                 <span class="flex">
                     <a href="/courses/vein2021/04/041/" class="gdoc-nav__entry ">
-                        Tubo de escape caliente
+                        8.1 Tubo de escape caliente
                     </a>
                 </span>
             
@@ -1324,8 +1479,6 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             
             </li>
             
-            
-        
             
             
 
@@ -1341,7 +1494,7 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             
                 <span class="flex">
                     <a href="/courses/vein2021/04/042/" class="gdoc-nav__entry ">
-                        Partidas en Frío
+                        8.2 Partidas en Frío
                     </a>
                 </span>
             
@@ -1367,7 +1520,83 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             
                 <span class="flex">
                     <a href="/courses/vein2021/04/043/" class="gdoc-nav__entry is-active">
-                        Evaporativas
+                        8.3 Evaporativas
+                    </a>
+                </span>
+            
+            
+
+            
+            </li>
+            
+            
+        
+            
+            
+
+            
+            
+            
+            
+            
+            
+
+            <li>
+            
+            
+                <span class="flex">
+                    <a href="/courses/vein2021/04/044/" class="gdoc-nav__entry ">
+                        8.4 Deterioración
+                    </a>
+                </span>
+            
+            
+
+            
+            </li>
+            
+            
+        
+            
+            
+
+            
+            
+            
+            
+            
+            
+
+            <li>
+            
+            
+                <span class="flex">
+                    <a href="/courses/vein2021/04/045/" class="gdoc-nav__entry ">
+                        8.5 Corrección combustibles
+                    </a>
+                </span>
+            
+            
+
+            
+            </li>
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+
+            <li>
+            
+            
+                <span class="flex">
+                    <a href="/courses/vein2021/04/046/" class="gdoc-nav__entry ">
+                        8.6 Emisiones por desgaste
                     </a>
                 </span>
             
@@ -1400,7 +1629,7 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             
                 <span class="flex">
                     <a href="/courses/vein2021/05/" class="gdoc-nav__entry ">
-                        Plots
+                        9. Plots
                     </a>
                 </span>
             
@@ -1426,7 +1655,7 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
             
                 <span class="flex">
                     <a href="/courses/vein2021/06/" class="gdoc-nav__entry ">
-                        Fotos
+                        10. Fotos
                     </a>
                 </span>
             
@@ -1606,7 +1835,7 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
         
     
     
-        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/' href='/'><span itemprop='name'>Welcome to AtmosChem</span></a><meta itemprop='position' content='1' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/courses/' href='/courses/'><span itemprop='name'>Courses</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/courses/vein2021/' href='/courses/vein2021/'><span itemprop='name'>VEIN 2021 CASAP</span></a><meta itemprop='position' content='3' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/courses/vein2021/04/' href='/courses/vein2021/04/'><span itemprop='name'>Emisiones</span></a><meta itemprop='position' content='4' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>Evaporativas</span><meta itemprop='position' content='5' /></li>
+        <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/' href='/'><span itemprop='name'>Welcome to AtmosChem</span></a><meta itemprop='position' content='1' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/courses/' href='/courses/'><span itemprop='name'>Courses</span></a><meta itemprop='position' content='2' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/courses/vein2021/' href='/courses/vein2021/'><span itemprop='name'>VEIN 2021 CASAP</span></a><meta itemprop='position' content='3' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><a itemscope itemtype='https://schema.org/WebPage' itemprop='item' itemid='/courses/vein2021/04/' href='/courses/vein2021/04/'><span itemprop='name'>8. Emisiones</span></a><meta itemprop='position' content='4' /></li><li> / </li><li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'><span itemprop='name'>8.3 Evaporativas</span><meta itemprop='position' content='5' /></li>
     
 
     
@@ -1625,9 +1854,29 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
 
 
     <article class="gdoc-markdown">
-        <h1>Evaporativas</h1>
-        <p>Level 1.2</p>
-
+        <h1>8.3 Evaporativas</h1>
+        <p>Los factores dependen de la temperatura media y del largo de viaje
+disponible en metadata, como largo del ciclo de conducción.
+Representa el largo medio del viaje.</p>
+<p>Los factores incluyen &ldquo;diurnal&rdquo;,&ldquo;hot-soak&rdquo; y &ldquo;running losses&rdquo;.</p>
+<p>La estimativa es llamada en <code>main.R</code>:</p>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="c1"># Evaporatives ####</span>
+<span class="n">language</span> <span class="o">&lt;-</span> <span class="s">&#34;spanish&#34;</span> <span class="c1"># english spanish portuguese</span>
+<span class="n">provincia</span> <span class="o">&lt;-</span> <span class="nf">unique</span><span class="p">(</span><span class="n">fuel</span><span class="o">$</span><span class="n">region</span><span class="p">)</span><span class="n">[1]</span>
+<span class="c1"># provincia &lt;- unique(fuel$region)[as.numeric(basename(getwd()))]</span>
+<span class="n">metadata</span> <span class="o">&lt;-</span> <span class="nf">readRDS</span><span class="p">(</span><span class="s">&#34;config/metadata.rds&#34;</span><span class="p">)</span>
+<span class="n">mileage</span> <span class="o">&lt;-</span> <span class="nf">readRDS</span><span class="p">(</span><span class="s">&#34;config/mileage.rds&#34;</span><span class="p">)</span>
+<span class="n">veh</span> <span class="o">&lt;-</span> <span class="nf">readRDS</span><span class="p">(</span><span class="s">&#34;config/fleet_age.rds&#34;</span><span class="p">)</span>
+<span class="n">net</span> <span class="o">&lt;-</span> <span class="nf">readRDS</span><span class="p">(</span><span class="s">&#34;network/net.rds&#34;</span><span class="p">)</span>
+<span class="n">pmonth</span> <span class="o">&lt;-</span> <span class="nf">readRDS</span><span class="p">(</span><span class="s">&#34;config/pmonth.rds&#34;</span><span class="p">)</span>
+<span class="n">met</span> <span class="o">&lt;-</span> <span class="nf">readRDS</span><span class="p">(</span><span class="s">&#34;config/met.rds&#34;</span><span class="p">)</span>
+<span class="n">euro</span> <span class="o">&lt;-</span> <span class="nf">readRDS</span><span class="p">(</span><span class="s">&#34;config/euro.rds&#34;</span><span class="p">)</span>
+<span class="n">tech</span> <span class="o">&lt;-</span> <span class="nf">readRDS</span><span class="p">(</span><span class="s">&#34;config/tech.rds&#34;</span><span class="p">)</span>
+<span class="n">fuel_spec</span> <span class="o">&lt;-</span> <span class="nf">readRDS</span><span class="p">(</span><span class="s">&#34;config/fuel_spec.rds&#34;</span><span class="p">)</span>
+<span class="n">verbose</span> <span class="o">&lt;-</span> <span class="kc">FALSE</span>
+<span class="n">year</span> <span class="o">&lt;-</span> <span class="m">2019</span>
+<span class="nf">source</span><span class="p">(</span><span class="s">&#34;scripts/evaporatives_eea.R&#34;</span><span class="p">,</span> <span class="n">encoding</span> <span class="o">=</span> <span class="s">&#34;UTF-8&#34;</span><span class="p">)</span>
+</code></pre></div>
 
     </article>
 
