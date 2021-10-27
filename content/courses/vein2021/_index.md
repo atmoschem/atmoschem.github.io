@@ -20,13 +20,3 @@ Como el congreso es en Colombia, con mayoria de asistentes colombianos, el conte
 Este curso esta basado en el trabajo presentado para este congreso, que cubre una estimación de emisiones para una provincia de Ecuador.
 
 Los tópicos del curso son los siguientes:
-
-| ID | Descripción               |   |
-|----|---------------------------|---|
-| 1  | Configuración.            |   |
-| 2  | Datos espaciales.         |   |
-| 3  | Datos de flota vehicular. |   |
-| 4  | Estimación de emisiones   |   |
-| 5  | Plots                     |   |
-
-
