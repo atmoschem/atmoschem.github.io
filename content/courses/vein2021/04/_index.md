@@ -1,5 +1,5 @@
 ---
-title: Emisiones
+title: 8. Emisiones
 weight: -6
 geekdocCollapseSection: true
 ---
@@ -11,4 +11,5 @@ geekdocCollapseSection: true
 <!-- spellchecker-enable -->
 
 
-Emisiones
+En esta sección se muestran todos los procesos emisores.
+Estos procesos se encuentran scripts llamados desde `main.R`
